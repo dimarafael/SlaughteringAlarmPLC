@@ -12,8 +12,9 @@ qt_standard_project_setup(REQUIRES 6.5)
 
 qt_add_executable(appSlaughteringAlarmPLC
     main.cpp
-    snap7.cpp
-    plc_siemens.cpp
+    snap7.h snap7.cpp
+    plc_siemens.h plc_siemens.cpp
+    alarmsconfig.h alarmsconfig.cpp
 )
 
 qt_add_qml_module(appSlaughteringAlarmPLC
@@ -21,6 +22,11 @@ qt_add_qml_module(appSlaughteringAlarmPLC
     VERSION 1.0
     QML_FILES
         Main.qml
+)
+
+qt_add_resources(appSlaughteringAlarmPLC "alarms_config"
+    FILES
+        Alarms.csv
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

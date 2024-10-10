@@ -1,0 +1,1024 @@
+﻿Anlagenservice *** AIS engineering GmbH 06466/912937 *** keine Statusmeldung aktiv,Anlagenservice *** AIS engineering GmbH +496466/912937 *** Nincs aktív hiba,DB 202 DBX 1.0,Warnings
+Pufferbatterie der SPS wird leer gemeldet durch SV (Programmverlust),PLC elem töltöttsége alacsony PROGRAMVESZTÉS!,DB 202 DBX 1.1,Warnings
+Lampentest eingeschaltet (Abwahl durch erneute Betätigung),Lámpateszt bekapcsolva,DB 202 DBX 1.2,Warnings
+Handbetrieb Zielsteuerung angewählt (Weichen schwenken mit Hand-vor-Ort),Célkiválasztás kézi vezérléssel (Weichen schwenken mit Hand-vor-Ort),DB 202 DBX 1.3,Warnings
+Testbetrieb für Weichenkontrolle angewählt (Schwenkpunkte Weichen einstellen),Tesztüzem a váltóvezérléshez kiválasztva (Schwenkpunkte Weichen einstellen),DB 202 DBX 1.4,Warnings
+"Servicebetrieb für Weichen angewählt (KK9 Einschaltung verriegelt, Weichen direkt)","Szervízmód a váltóknál kiválasztva (KK9 bekapcsolás tíltva, Váltó direkt üzem)",DB 202 DBX 1.5,Warnings
+Notauslagerung aktiviert (keine Annahme von Aufträgen!),Sürgõsségi lapozás engedélyezett (nem fogad megrendeléseket!),DB 202 DBX 1.6,Warnings
+BM008,BM008,DB 202 DBX 1.7,Warnings
+Lebensbitüberwachung Kommunikation zur SPS BANSS angesprochen,Kommunikáció a BANSS plc-vel nem mûkodik,DB 202 DBX 0.0,Warnings
+Lebensbitüberwachung Kommunikation zur SPS BONNER angesprochen,Kommunikáció a BONNER plc-vel nem mûkodik,DB 202 DBX 0.1,Warnings
+Versandförderer KK8 läuft nicht für Abzugsförderer KK51,Húsraktári konvejor KK8 nem megy,DB 202 DBX 0.2,Warnings
+Zerlegeband läuft nicht für Ablegeelevator KK6,Bontószalag nem megy,DB 202 DBX 0.3,Warnings
+Leerhakensystem hinter KK6 läuft nicht,Üreskampó visszahordó rendszer nem megy,DB 202 DBX 0.4,Warnings
+BM014,BM014,DB 202 DBX 0.5,Warnings
+BM015,BM015,DB 202 DBX 0.6,Warnings
+BM016,BM016,DB 202 DBX 0.7,Warnings
+Arbeitsstoppschalter Schlachtband +CX20-A202 Rektrumpodest angewählt,Kulárékivágónál +CX20-A202 Kapcsoló müködtetve,DB 202 DBX 3.0,Warnings
+Arbeitsstoppschalter Schlachtband +CX24-A253 Entnahmepodest angewählt,Belsõségesnél +CX24-A253 Kapcsoló müködtetve,DB 202 DBX 3.1,Warnings
+Arbeitsstoppschalter Schlachtband +CX24-A240 Sägepodest angewählt,Fûrésznél +CX24-A240 Kapcsoló müködtetve,DB 202 DBX 3.2,Warnings
+Arbeitsstoppschalter Schlachtband +CX24-A246 Organeentnahme angewählt,Belsõségesnél +CX24-A246 Kapcsoló müködtetve,DB 202 DBX 3.3,Warnings
+Arbeitsstoppschalter Schlachtband +CX24-A250 Innereienkontrolle angewählt,Állatorvosnál +CX24-A250 Kapcsoló müködtetve,DB 202 DBX 3.4,Warnings
+Arbeitsstoppschalter Schlachtband +CX28-A280 Tierkontrolle angewählt,Állatorvosnál +CX28-A280 Kapcsoló müködtetve,DB 202 DBX 3.5,Warnings
+1.Bein hinter Einhebung Schlachtförderer KK1 nicht erkannt,KK1 Beemelõnél nem érzékelte a kampót,DB 202 DBX 3.6,Warnings
+2.Bein nicht in Einhebung von Schlachtförderer KK1,KK1-re nem tud beemelni,DB 202 DBX 3.7,Warnings
+2.Bein hinter Einhebung Schlachtförderer KK1 nicht erkannt,KK1 Beemelõnél nem érzékelte a kampót,DB 202 DBX 2.0,Warnings
+Hakeneinlauf nicht erfolgt oder Stau in BU-Weiche Schlachtf.KK1 aktiv,Kampó nem érkezett vagy torlódás a orvosi váltónál KK1,DB 202 DBX 2.1,Warnings
+Staumeldung Auslauf Schlachtförderer KK1 nach KK2 aktiv,Torlódásfelügyelet KK1 - KK2 aktiv,DB 202 DBX 2.2,Warnings
+Haken kommt von Schlachtf.KK1 und BU-Einschleusung noch aktiv,Kampó érkezett a KK1-rõl de még az orvosi váltó aktív,DB 202 DBX 2.3,Warnings
+keine Quittierung für Tier vor BU-Weiche in KK1 durch die EDV,Nincs válasz az EDP-tõl az orvosi váltónál KK1,DB 202 DBX 2.4,Warnings
+BM030,BM030,DB 202 DBX 2.5,Warnings
+BM031,BM031,DB 202 DBX 2.6,Warnings
+Reinigungsbetrieb für Schlachtförderer KK1 ausgewählt,KK1 Tisztító üzemmód kiválasztva,DB 202 DBX 2.7,Warnings
+Endlagenüberwachung BU-Kippvorrichtung in KK3 angesprochen,Végállásfelügyelet hiba a beles kobzó hengernél KK3,DB 202 DBX 5.0,Warnings
+BM034,BM034,DB 202 DBX 5.1,Warnings
+BM035,BM035,DB 202 DBX 5.2,Warnings
+BM036,BM036,DB 202 DBX 5.3,Warnings
+BM037,BM037,DB 202 DBX 5.4,Warnings
+BM038,BM038,DB 202 DBX 5.5,Warnings
+BM039,BM039,DB 202 DBX 5.6,Warnings
+Reinigungsbetrieb für Schalenförderer KK3 ausgewählt,KK3 Tisztító üzemmód kiválasztva,DB 202 DBX 5.7,Warnings
+Endlagenüberwachung BU-Abstreifer in KK4 angesprochen,Végállásfelügyelet hiba a belsõség kobzó hengernél KK4,DB 202 DBX 4.0,Warnings
+nicht abgehängtes Organ im Rückstrang Hakenf.KK4 erkannt,A KK4-rõl nem akasztották le a belsõséget (CX24-B25.7 érzékelõ),DB 202 DBX 4.1,Warnings
+BM043,BM043,DB 202 DBX 4.2,Warnings
+BM044,BM044,DB 202 DBX 4.3,Warnings
+BM045,BM045,DB 202 DBX 4.4,Warnings
+BM046,BM046,DB 202 DBX 4.5,Warnings
+BM047,BM047,DB 202 DBX 4.6,Warnings
+Reinigungsbetrieb für Hakenförderer KK4 ausgewählt,KK4 Tisztító üzemmód kiválasztva,DB 202 DBX 4.7,Warnings
+1.Bein hinter Einhebung Wiegeförderer KK2 nicht erkannt,KK2 Beemelõnél nem érzékelte a kampót,DB 202 DBX 7.0,Warnings
+2.Bein nicht in Einhebung von Wiegeförderer KK2,KK2-re nem tud beemelni,DB 202 DBX 7.1,Warnings
+2.Bein hinter Einhebung Wiegeförderer KK2 nicht erkannt,KK2 Beemelõnél nem érzékelte a kampót,DB 202 DBX 7.2,Warnings
+Endlagenüberwachung Absenkung in KK2 angesprochen,Végállásfelügyelet a beemelõ hengernél KK9,DB 202 DBX 7.3,Warnings
+Hakeneinlauf nicht erfolgt oder Stau in AW-Weiche Wiegef.KK2 aktiv,Kampó nem érkezett vagy torlódás a bõrös/nem bõrös váltónál KK2,DB 202 DBX 7.4,Warnings
+Endlagenüberwachung Einschleusweiche in KK2 angesprochen,Bõrös – Bõr nélküli váltófelügyelet a KK2-nél,DB 202 DBX 7.5,Warnings
+1.Tür im Wiegeförderer KK2 nicht in Endlage offen,KK2 az ajtó nincs rendesen nyitva,DB 202 DBX 7.6,Warnings
+2.Tür im Wiegeförderer KK2 nicht in Endlage offen,KK2 Ajtó nincs teljesen nyitva,DB 202 DBX 7.7,Warnings
+Staumeldung Auslauf Wiegeförderer KK2 nach KSK aktiv,Torlódásfelügyelet KK2 - KSK aktiv,DB 202 DBX 6.0,Warnings
+keine Daten von der EDV für die Klassifizierung in KK2 erhalten,Nincs adat az EDP-tõl az osztályozáshoz KK2 megállítva,DB 202 DBX 6.1,Warnings
+keine Quittierung für Tier auf Waage in KK2 durch die EDV,Nincs válasz az EDP-tõl a mérlegnél KK2,DB 202 DBX 6.2,Warnings
+keine Quittierung für Tier vor AW in KK2 durch die EDV,Nincs válasz az EDP-tõl a bõrös/nem bõrös váltónál KK2,DB 202 DBX 6.3,Warnings
+BM061,BM061,DB 202 DBX 6.4,Warnings
+BM062,BM062,DB 202 DBX 6.5,Warnings
+BM063,BM063,DB 202 DBX 6.6,Warnings
+BM064,BM064,DB 202 DBX 6.7,Warnings
+Bandstopp durch Waage im Wiegef.KK2 angefordert (KK2 aus-/einschalten),A mérleg megállította a KK2 konvejort (KK2 Ki-Bekapcsolni),DB 202 DBX 9.0,Warnings
+Registrierende für Wiegevorgang der Waage in KK2 nicht abgeschlossen,A mérleg nem tudta megmérni a súlyt a KK2-nél,DB 202 DBX 9.1,Warnings
+Bereitmeldung der Waage im Wiegef.KK2 fehlt für nächsten Wiegevorgang,"KK2-nél a mérleg nincs készenlétben, következõ mérés nem lehetséges",DB 202 DBX 9.2,Warnings
+Störung Waage im Wiegef.KK2 (Waage aus-/einschalten),Hiba a mérlegnék KK2 (Mérleg Ki-/Bekapcsolni),DB 202 DBX 9.3,Warnings
+Leertaktanforderung durch Waage im Wiegef.KK2,Üres ciklus a KK2-es mérlegnél,DB 202 DBX 9.4,Warnings
+Registrierung der Waage im Wiegef.KK2 ist aktiv,A mérés aktív a mérlegnél KK2-nél,DB 202 DBX 9.5,Warnings
+Geschwindigkeitsverletzung durch Waage im Wiegef.KK2 erkannt,Sebessségeltérés a mérleg által a KK2 konvejornál,DB 202 DBX 9.6,Warnings
+SM072,SM072,DB 202 DBX 9.7,Warnings
+Bandstopp durch Waage im Abzugsf.KK52 angefordert (KK52 aus-/einschalten),A mérleg megállította a KK52 konvejort (KK52 Ki-Bekapcsolni),DB 202 DBX 8.0,Warnings
+Registrierende für Wiegevorgang der Waage in KK52 nicht abgeschlossen,A mérleg nem tudta megmérni a súlyt a KK52-nél,DB 202 DBX 8.1,Warnings
+Bereitmeldung der Waage im Abzugsf.KK52 fehlt für nächsten Wiegevorgang,"KK52-nél a mérleg nincs készenlétben, következõ mérés nem lehetséges",DB 202 DBX 8.2,Warnings
+Störung Waage im Abzugsf.KK52 (Waage aus-/einschalten),Hiba a mérlegnék KK52 (Mérleg Ki-/Bekapcsolni),DB 202 DBX 8.3,Warnings
+Leertaktanforderung durch Waage im Abzugsf.KK52,Üres ciklus a KK52-es mérlegnél,DB 202 DBX 8.4,Warnings
+Registrierung der Waage im Abzugsf.KK52 ist aktiv,A mérés aktív a mérlegnél KK52-nél,DB 202 DBX 8.5,Warnings
+Geschwindigkeitsverletzung durch Waage im Abzugsf.KK52 erkannt,Sebessségeltérés a mérleg által a KK52 konvejornál,DB 202 DBX 8.6,Warnings
+BM080,BM080,DB 202 DBX 8.7,Warnings
+Hakenabsturzsicherung hinter Übergabe KSK nach Trolley angesprochen,Kampóbiztosítás az alagút átadónál KSK-KK2,DB 202 DBX 11.0,Warnings
+Haken kommen ans Ende und Elevator KK14 läuft nicht,A kampó a konvejor végére ért és KK14 nem megy,DB 202 DBX 11.1,Warnings
+Trolleyabsicherung hinter Übergabe KSK auf Rohrbahn angesprochen,Alagútkonvejor nem adta le a kampót KSK (visszahúzta),DB 202 DBX 11.2,Warnings
+Staumeldung Auslauf Schocktunnelförderer KSK nach KK14 aktiv,Torlódásfelügyelet KSK - KK14 aktiv,DB 202 DBX 11.3,Warnings
+Schocktunnelf.Taktstopp und wartet auf Haken o.Taktbetrieb ausschalten,KSK konvejornál órát és ne várja a horog vagy kikapcsolt állapotban,DB 202 DBX 11.4,Warnings
+SM086,BM086,DB 202 DBX 11.5,Warnings
+SM087,BM087,DB 202 DBX 11.6,Warnings
+SM088,BM088,DB 202 DBX 11.7,Warnings
+Höhenelevator KK14 eingeschaltet und Kette dreht nicht,KK14 bekapcsolva de a lánc nem megy,DB 202 DBX 10.0,Warnings
+Kühlraumeingangstüre hinter Elevator KK14 nicht offen,Hûtõterem ajtó nincs teljesen nyitva a Terem62 bejáratánál (KK14),DB 202 DBX 10.1,Warnings
+Staumeldung Auslauf Höhenelevator KK14 nach KK9 aktiv,Torlódásfelügyelet KK14-KK9 aktiv,DB 202 DBX 10.2,Warnings
+BM092,BM092,DB 202 DBX 10.3,Warnings
+BM093,BM093,DB 202 DBX 10.4,Warnings
+BM094,BM094,DB 202 DBX 10.5,Warnings
+BM095,BM095,DB 202 DBX 10.6,Warnings
+BM096,BM096,DB 202 DBX 10.7,Warnings
+Haken kommen ans Ende von Zubringf.KK7 und Einlagerf.KK9 läuft nicht,A kampó a konvejor végére ért és KK9 nem megy,DB 202 DBX 13.0,Warnings
+Staumeldung Auslauf Zubringförderer KK7 nach Einschleusung KK9 aktiv,Torlódásfelügyelet KK7 - KK9 aktiv,DB 202 DBX 13.1,Warnings
+Einschleusung in KK9 nicht aktiv und Haken in EH,A kapcsolo nem off  3-as hutoben a vasarolt betarolashoz' Kapcsold at,DB 202 DBX 13.2,Warnings
+BM100,BM100,DB 202 DBX 13.3,Warnings
+BM101,BM101,DB 202 DBX 13.4,Warnings
+BM102,BM102,DB 202 DBX 13.5,Warnings
+BM103,BM103,DB 202 DBX 13.6,Warnings
+BM104,BM104,DB 202 DBX 13.7,Warnings
+BM105,BM105,DB 202 DBX 12.0,Warnings
+BM106,BM106,DB 202 DBX 12.1,Warnings
+BM107,BM107,DB 202 DBX 12.2,Warnings
+BM108,BM108,DB 202 DBX 12.3,Warnings
+BM109,BM109,DB 202 DBX 12.4,Warnings
+BM110,BM110,DB 202 DBX 12.5,Warnings
+BM111,BM111,DB 202 DBX 12.6,Warnings
+BM112,BM112,DB 202 DBX 12.7,Warnings
+1.Tür im Einlagerförderer KK9 (Eingang)  nicht in Endlage offen,KK9 Betárolónál az ajtó nincs rendesen nyitva,DB 202 DBX 15.0,Warnings
+2.Tür im Einlagerförderer KK9 (KR1-2)  nicht in Endlage offen,KK9 Betárolónál az ajtó nincs rendesen nyitva,DB 202 DBX 15.1,Warnings
+3.Tür im Einlagerförderer KK9 (KR2-3)  nicht in Endlage offen,KK9 Betárolónál az ajtó nincs rendesen nyitva,DB 202 DBX 15.2,Warnings
+Endlagenüberwachung 2.Einhebung in KK9 angesprochen,Végállásfelügyelet 2.beemelõ hengernél KK9,DB 202 DBX 15.3,Warnings
+Haken kommt im Einlagerf.KK9 und Einschleusung von KK7 noch aktiv,A KK9 kampó jött és a betárolás még aktív a KK7-rõl,DB 202 DBX 15.4,Warnings
+Endlagenüberwachung Einschleusweiche bei Einschleusung in KK9 angesprochen,Végállásfelügyelet a KK9 váltónál,DB 202 DBX 15.5,Warnings
+Einlagerförderer KK9 verriegelt wegen Anwahl Servicebetrieb der Zielsteuerung,KK9 reteszlve mivel a betárolásvezérlés szerviz üzemben van,DB 202 DBX 15.6,Warnings
+WeicheneinlaufError der Zielsteuerung im Kühlhaus für KK9 aufgetreten,Váltóhiba kiválasztott célpályánál a hûtõteremben KK9-nél,DB 202 DBX 15.7,Warnings
+zu viele Einläufe auf Sammlerbahn im Kühlhaus,Túl sok betárolás a gyûjtõpályára a Hûtõteremben,DB 202 DBX 14.0,Warnings
+kein Ziel für Haken hinter 1.Einhebung für Verzielung im Einlagerf.KK9 erkannt,Nincs cél megadva a kampónak 1.Beemelésnél a betárolásnál KK9,DB 202 DBX 14.1,Warnings
+kein Ziel für Haken hinter 2.Einhebung für Verzielung im Einlagerf.KK9 erkannt,Nincs cél megadva a kampónak 2.Beemelésnél a betárolásnál KK9,DB 202 DBX 14.2,Warnings
+BM124,BM124,DB 202 DBX 14.3,Warnings
+BM125,BM125,DB 202 DBX 14.4,Warnings
+BM126,BM126,DB 202 DBX 14.5,Warnings
+BM127,BM127,DB 202 DBX 14.6,Warnings
+BM128,BM128,DB 202 DBX 14.7,Warnings
+1.Tür im Abzugsförderer KK51 (nach Versand)  nicht in Endlage offen,KK51 az ajtó nincs teljesen nyitva (húsraktár felé),DB 202 DBX 17.0,Warnings
+2.Tür im Abzugsförderer KK51 (im Versand)  nicht in Endlage offen,KK51 az ajtó nincs teljesen nyitva (húsraktár felé),DB 202 DBX 17.1,Warnings
+Staumeldung Auslauf Abzugsförderer KK51 nach Versand aktiv,Torlódásfelügyelet KK51 aktív,DB 202 DBX 17.2,Warnings
+Synchronkette Abzugsförderer KK51 nicht ok für Synchronbetrieb Auslagerseite,KK51 szinkronpoziciója nem jó a szinkron kitároláshoz,DB 202 DBX 17.3,Warnings
+BM133,BM133,DB 202 DBX 17.4,Warnings
+BM134,BM134,DB 202 DBX 17.5,Warnings
+BM135,BM135,DB 202 DBX 17.6,Warnings
+BM136,BM136,DB 202 DBX 17.7,Warnings
+Endlagenüberwachung Ausschleusweiche nach Versand in KK13 angesprochen,Végállásfelügyelet a húsraktári váltónál KK13,DB 202 DBX 16.0,Warnings
+Tür im Übergabeförderer KK13 (KR1-2)  nicht in Endlage offen,Ajtó nincs teljesen nyitva KK13 (T62-T63) ,DB 202 DBX 16.1,Warnings
+Synchronkette Übergabeförderer KK13 nicht ok für Synchronbetrieb Auslagerseite,KK13 szinkronpoziciója nem jó a szinkron kitároláshoz,DB 202 DBX 16.2,Warnings
+BM040,BM040,DB 202 DBX 16.3,Warnings
+BM141,BM141,DB 202 DBX 16.4,Warnings
+BM142,BM142,DB 202 DBX 16.5,Warnings
+BM143,BM143,DB 202 DBX 16.6,Warnings
+BM144,BM144,DB 202 DBX 16.7,Warnings
+1.Tür im Abzugsförderer KK52 (KR1-2)  nicht in Endlage offen,KK52 az ajtó nincs teljesen nyitva,DB 202 DBX 19.0,Warnings
+2.Tür im Abzugsförderer KK52 (KR2-3)  nicht in Endlage offen,KK52 az ajtó nincs teljesen nyitva,DB 202 DBX 19.1,Warnings
+3.Tür im Abzugsförderer KK52 (Ausgang)  nicht in Endlage offen,KK52 az ajtó nincs teljesen nyitva (kimenet),DB 202 DBX 19.2,Warnings
+Doppel-Hakenerkennung vor Waage im Abzugsf.KK52 angesprochen,KK52 dupla kampót érzékelt a mérlegen,DB 202 DBX 19.3,Warnings
+Staumeldung Auslauf Abzugsförderer KK52 nach Ablegeelevator KK6 aktiv,Torlódásfelügyelet KK52 - KK6 aktiv,DB 202 DBX 19.4,Warnings
+Synchronkette Abzugsförderer KK52 nicht ok für Synchronbetrieb Auslagerseite,KK52 szinkronpoziciója nem jó a szinkron kitároláshoz,DB 202 DBX 19.5,Warnings
+Endlagenüberwachung Klappstück KK52 für die Auslagerung zum Versand,KK52 függõleges váltó végállás kapcsoló hiba (munkahenger reed relé),DB 202 DBX 19.6,Warnings
+Error Haken kommt vor Klappstück im KK52 und dieses ist nicht in der richtigen ,A függöleges váltó nincs megfelelõ állásban,DB 202 DBX 19.7,Warnings
+Error Haken kommt vor Propeller und dieser ist nicht in Grundstellung,Kampó érkezett az átfordító motorhoz de az nincs alaphelyzetben,DB 202 DBX 18.0,Warnings
+Error Haken im Rückstrang KK52 fehlt,A kampóátfordítás nem sikerült mert a kampó nem érkezett meg a KK52 konvejor ,DB 202 DBX 18.1,Warnings
+Endlagenüberwachung Schiebevorrichtung Ende KK52 nach Versand,Végállás kapcsoló hiba az áttoló munkahengernél a KK52-konvejoron kitárolásnál a húsraktárba (munkahenger reed relé),DB 202 DBX 18.2,Warnings
+Error haken kommt ans Ende von KK52 nach Versand und KK51 läuft nicht,"A KK52 végén kampó érkezett, de a KK51 nem üzemel",DB 202 DBX 18.3,Warnings
+Staumeldung Auslauf Abzugsförderer KK52 nach KK51 Versand aktiv,Torlódásfelügyelet KK52 - KK51 aktiv,DB 202 DBX 18.4,Warnings
+BM158,BM158,DB 202 DBX 18.5,Warnings
+BM159,BM159,DB 202 DBX 18.6,Warnings
+Staumeldung Auslauf Ablegeelevator KK6 nach Leerhakensystem aktiv,Torlódásfelügyelet KK6 aktiv,DB 202 DBX 18.7,Warnings
+BM161,BM161,DB 202 DBX 21.0,Warnings
+BM162,BM162,DB 202 DBX 21.1,Warnings
+BM163,BM163,DB 202 DBX 21.2,Warnings
+BM164,BM164,DB 202 DBX 21.3,Warnings
+BM165,BM165,DB 202 DBX 21.4,Warnings
+BM166,BM166,DB 202 DBX 21.5,Warnings
+BM167,BM167,DB 202 DBX 21.6,Warnings
+BM168,BM168,DB 202 DBX 21.7,Warnings
+BM169,BM169,DB 202 DBX 20.0,Warnings
+BM170,BM170,DB 202 DBX 20.1,Warnings
+BM171,BM171,DB 202 DBX 20.2,Warnings
+BM172,BM172,DB 202 DBX 20.3,Warnings
+BM173,BM173,DB 202 DBX 20.4,Warnings
+BM174,BM174,DB 202 DBX 20.5,Warnings
+BM175,BM175,DB 202 DBX 20.6,Warnings
+BM176,BM176,DB 202 DBX 20.7,Warnings
+BM177,BM177,DB 202 DBX 23.0,Warnings
+BM178,BM178,DB 202 DBX 23.1,Warnings
+BM179,BM179,DB 202 DBX 23.2,Warnings
+BM180,BM180,DB 202 DBX 23.3,Warnings
+BM181,BM181,DB 202 DBX 23.4,Warnings
+BM182,BM182,DB 202 DBX 23.5,Warnings
+BM183,BM183,DB 202 DBX 23.6,Warnings
+BM184,BM184,DB 202 DBX 23.7,Warnings
+BM185,BM185,DB 202 DBX 22.0,Warnings
+BM186,BM186,DB 202 DBX 22.1,Warnings
+BM187,BM187,DB 202 DBX 22.2,Warnings
+BM188,BM188,DB 202 DBX 22.3,Warnings
+BM189,BM189,DB 202 DBX 22.4,Warnings
+BM190,BM190,DB 202 DBX 22.5,Warnings
+BM191,BM191,DB 202 DBX 22.6,Warnings
+BM192,BM192,DB 202 DBX 22.7,Warnings
+BM193,BM193,DB 202 DBX 25.0,Warnings
+BM194,BM194,DB 202 DBX 25.1,Warnings
+BM195,BM195,DB 202 DBX 25.2,Warnings
+BM196,BM196,DB 202 DBX 25.3,Warnings
+BM197,BM197,DB 202 DBX 25.4,Warnings
+BM198,BM198,DB 202 DBX 25.5,Warnings
+BM199,BM199,DB 202 DBX 25.6,Warnings
+BM200,BM200,DB 202 DBX 25.7,Warnings
+BM201,BM201,DB 202 DBX 24.0,Warnings
+BM202,BM202,DB 202 DBX 24.1,Warnings
+BM203,BM203,DB 202 DBX 24.2,Warnings
+BM204,BM204,DB 202 DBX 24.3,Warnings
+BM205,BM205,DB 202 DBX 24.4,Warnings
+BM206,BM206,DB 202 DBX 24.5,Warnings
+BM207,BM207,DB 202 DBX 24.6,Warnings
+BM208,BM208,DB 202 DBX 24.7,Warnings
+BM209,BM209,DB 202 DBX 27.0,Warnings
+BM210,BM210,DB 202 DBX 27.1,Warnings
+BM211,BM211,DB 202 DBX 27.2,Warnings
+BM212,BM212,DB 202 DBX 27.3,Warnings
+BM213,BM213,DB 202 DBX 27.4,Warnings
+BM214,BM214,DB 202 DBX 27.5,Warnings
+BM215,BM215,DB 202 DBX 27.6,Warnings
+BM216,BM216,DB 202 DBX 27.7,Warnings
+BM217,BM217,DB 202 DBX 26.0,Warnings
+BM218,BM218,DB 202 DBX 26.1,Warnings
+BM219,BM219,DB 202 DBX 26.2,Warnings
+BM220,BM220,DB 202 DBX 26.3,Warnings
+BM221,BM221,DB 202 DBX 26.4,Warnings
+BM222,BM222,DB 202 DBX 26.5,Warnings
+BM223,BM223,DB 202 DBX 26.6,Warnings
+BM224,BM224,DB 202 DBX 26.7,Warnings
+BM225,BM225,DB 202 DBX 29.0,Warnings
+BM226,BM226,DB 202 DBX 29.1,Warnings
+BM227,BM227,DB 202 DBX 29.2,Warnings
+BM228,BM228,DB 202 DBX 29.3,Warnings
+BM229,BM229,DB 202 DBX 29.4,Warnings
+BM230,BM230,DB 202 DBX 29.5,Warnings
+BM231,BM231,DB 202 DBX 29.6,Warnings
+BM232,BM232,DB 202 DBX 29.7,Warnings
+BM233,BM233,DB 202 DBX 28.0,Warnings
+BM234,BM234,DB 202 DBX 28.1,Warnings
+BM235,BM235,DB 202 DBX 28.2,Warnings
+BM236,BM236,DB 202 DBX 28.3,Warnings
+BM237,BM237,DB 202 DBX 28.4,Warnings
+BM238,BM238,DB 202 DBX 28.5,Warnings
+BM239,BM239,DB 202 DBX 28.6,Warnings
+BM240,BM240,DB 202 DBX 28.7,Warnings
+BM241,BM241,DB 202 DBX 31.0,Warnings
+BM242,BM242,DB 202 DBX 31.1,Warnings
+BM243,BM243,DB 202 DBX 31.2,Warnings
+BM244,BM244,DB 202 DBX 31.3,Warnings
+BM245,BM245,DB 202 DBX 31.4,Warnings
+BM246,BM246,DB 202 DBX 31.5,Warnings
+BM247,BM247,DB 202 DBX 31.6,Warnings
+BM248,BM248,DB 202 DBX 31.7,Warnings
+BM249,BM249,DB 202 DBX 30.0,Warnings
+BM250,BM250,DB 202 DBX 30.1,Warnings
+BM251,BM251,DB 202 DBX 30.2,Warnings
+BM252,BM252,DB 202 DBX 30.3,Warnings
+BM253,BM253,DB 202 DBX 30.4,Warnings
+BM254,BM254,DB 202 DBX 30.5,Warnings
+BM255,BM255,DB 202 DBX 30.6,Warnings
+BM256,BM256,DB 202 DBX 30.7,Warnings
+BM257,BM257,DB 202 DBX 33.0,Warnings
+BM258,BM258,DB 202 DBX 33.1,Warnings
+BM259,BM259,DB 202 DBX 33.2,Warnings
+BM260,BM260,DB 202 DBX 33.3,Warnings
+BM261,BM261,DB 202 DBX 33.4,Warnings
+BM262,BM262,DB 202 DBX 33.5,Warnings
+BM263,BM263,DB 202 DBX 33.6,Warnings
+BM264,BM264,DB 202 DBX 33.7,Warnings
+BM265,BM265,DB 202 DBX 32.0,Warnings
+BM266,BM266,DB 202 DBX 32.1,Warnings
+BM267,BM267,DB 202 DBX 32.2,Warnings
+BM268,BM268,DB 202 DBX 32.3,Warnings
+BM269,BM269,DB 202 DBX 32.4,Warnings
+BM270,BM270,DB 202 DBX 32.5,Warnings
+BM271,BM271,DB 202 DBX 32.6,Warnings
+BM272,BM272,DB 202 DBX 32.7,Warnings
+BM273,BM273,DB 202 DBX 35.0,Warnings
+BM274,BM274,DB 202 DBX 35.1,Warnings
+BM275,BM275,DB 202 DBX 35.2,Warnings
+BM276,BM276,DB 202 DBX 35.3,Warnings
+BM277,BM277,DB 202 DBX 35.4,Warnings
+BM278,BM278,DB 202 DBX 35.5,Warnings
+BM279,BM279,DB 202 DBX 35.6,Warnings
+BM280,BM280,DB 202 DBX 35.7,Warnings
+BM281,BM281,DB 202 DBX 34.0,Warnings
+BM282,BM282,DB 202 DBX 34.1,Warnings
+BM283,BM283,DB 202 DBX 34.2,Warnings
+BM284,BM284,DB 202 DBX 34.3,Warnings
+BM285,BM285,DB 202 DBX 34.4,Warnings
+BM286,BM286,DB 202 DBX 34.5,Warnings
+BM287,BM287,DB 202 DBX 34.6,Warnings
+BM288,BM288,DB 202 DBX 34.7,Warnings
+BM289,BM289,DB 202 DBX 37.0,Warnings
+BM290,BM290,DB 202 DBX 37.1,Warnings
+BM291,BM291,DB 202 DBX 37.2,Warnings
+BM292,BM292,DB 202 DBX 37.3,Warnings
+BM293,BM293,DB 202 DBX 37.4,Warnings
+BM294,BM294,DB 202 DBX 37.5,Warnings
+BM295,BM295,DB 202 DBX 37.6,Warnings
+BM296,BM296,DB 202 DBX 37.7,Warnings
+BM297,BM297,DB 202 DBX 36.0,Warnings
+BM298,BM298,DB 202 DBX 36.1,Warnings
+BM299,BM299,DB 202 DBX 36.2,Warnings
+BM300,BM300,DB 202 DBX 36.3,Warnings
+BM301,BM301,DB 202 DBX 36.4,Warnings
+BM302,BM302,DB 202 DBX 36.5,Warnings
+BM303,BM303,DB 202 DBX 36.6,Warnings
+BM304,BM304,DB 202 DBX 36.7,Warnings
+BM305,BM305,DB 202 DBX 39.0,Warnings
+BM306,BM306,DB 202 DBX 39.1,Warnings
+BM307,BM307,DB 202 DBX 39.2,Warnings
+BM308,BM308,DB 202 DBX 39.3,Warnings
+BM309,BM309,DB 202 DBX 39.4,Warnings
+BM310,BM310,DB 202 DBX 39.5,Warnings
+BM311,BM311,DB 202 DBX 39.6,Warnings
+BM312,BM312,DB 202 DBX 39.7,Warnings
+BM313,BM313,DB 202 DBX 38.0,Warnings
+BM314,BM314,DB 202 DBX 38.1,Warnings
+BM315,BM315,DB 202 DBX 38.2,Warnings
+BM316,BM316,DB 202 DBX 38.3,Warnings
+BM317,BM317,DB 202 DBX 38.4,Warnings
+BM318,BM318,DB 202 DBX 38.5,Warnings
+BM319,BM319,DB 202 DBX 38.6,Warnings
+BM320,BM320,DB 202 DBX 38.7,Warnings
+BM321,BM321,DB 202 DBX 41.0,Warnings
+BM322,BM322,DB 202 DBX 41.1,Warnings
+BM323,BM323,DB 202 DBX 41.2,Warnings
+BM324,BM324,DB 202 DBX 41.3,Warnings
+BM325,BM325,DB 202 DBX 41.4,Warnings
+BM326,BM326,DB 202 DBX 41.5,Warnings
+BM327,BM327,DB 202 DBX 41.6,Warnings
+BM328,BM328,DB 202 DBX 41.7,Warnings
+BM329,BM329,DB 202 DBX 40.0,Warnings
+BM330,BM330,DB 202 DBX 40.1,Warnings
+BM331,BM331,DB 202 DBX 40.2,Warnings
+BM332,BM332,DB 202 DBX 40.3,Warnings
+BM333,BM333,DB 202 DBX 40.4,Warnings
+BM334,BM334,DB 202 DBX 40.5,Warnings
+BM335,BM335,DB 202 DBX 40.6,Warnings
+BM336,BM336,DB 202 DBX 40.7,Warnings
+BM337,BM337,DB 202 DBX 43.0,Warnings
+BM338,BM338,DB 202 DBX 43.1,Warnings
+BM339,BM339,DB 202 DBX 43.2,Warnings
+BM340,BM340,DB 202 DBX 43.3,Warnings
+BM341,BM341,DB 202 DBX 43.4,Warnings
+BM342,BM342,DB 202 DBX 43.5,Warnings
+BM343,BM343,DB 202 DBX 43.6,Warnings
+BM344,BM344,DB 202 DBX 43.7,Warnings
+BM345,BM345,DB 202 DBX 42.0,Warnings
+BM346,BM346,DB 202 DBX 42.1,Warnings
+BM347,BM347,DB 202 DBX 42.2,Warnings
+BM348,BM348,DB 202 DBX 42.3,Warnings
+BM349,BM349,DB 202 DBX 42.4,Warnings
+BM350,BM350,DB 202 DBX 42.5,Warnings
+BM351,BM351,DB 202 DBX 42.6,Warnings
+BM352,BM352,DB 202 DBX 42.7,Warnings
+BM353,BM353,DB 202 DBX 45.0,Warnings
+BM354,BM354,DB 202 DBX 45.1,Warnings
+BM355,BM355,DB 202 DBX 45.2,Warnings
+BM356,BM356,DB 202 DBX 45.3,Warnings
+BM357,BM357,DB 202 DBX 45.4,Warnings
+BM358,BM358,DB 202 DBX 45.5,Warnings
+BM359,BM359,DB 202 DBX 45.6,Warnings
+BM360,BM360,DB 202 DBX 45.7,Warnings
+BM361,BM361,DB 202 DBX 44.0,Warnings
+BM362,BM362,DB 202 DBX 44.1,Warnings
+BM363,BM363,DB 202 DBX 44.2,Warnings
+BM364,BM364,DB 202 DBX 44.3,Warnings
+BM365,BM365,DB 202 DBX 44.4,Warnings
+BM366,BM366,DB 202 DBX 44.5,Warnings
+BM367,BM367,DB 202 DBX 44.6,Warnings
+BM368,BM368,DB 202 DBX 44.7,Warnings
+BM369,BM369,DB 202 DBX 47.0,Warnings
+BM370,BM370,DB 202 DBX 47.1,Warnings
+BM371,BM371,DB 202 DBX 47.2,Warnings
+BM372,BM372,DB 202 DBX 47.3,Warnings
+BM373,BM373,DB 202 DBX 47.4,Warnings
+BM374,BM374,DB 202 DBX 47.5,Warnings
+BM375,BM375,DB 202 DBX 47.6,Warnings
+BM376,BM376,DB 202 DBX 47.7,Warnings
+BM377,BM377,DB 202 DBX 46.0,Warnings
+BM378,BM378,DB 202 DBX 46.1,Warnings
+BM379,BM379,DB 202 DBX 46.2,Warnings
+BM380,BM380,DB 202 DBX 46.3,Warnings
+BM381,BM381,DB 202 DBX 46.4,Warnings
+BM382,BM382,DB 202 DBX 46.5,Warnings
+BM383,BM383,DB 202 DBX 46.6,Warnings
+BM384,BM384,DB 202 DBX 46.7,Warnings
+BM385,BM385,DB 202 DBX 49.0,Warnings
+BM386,BM386,DB 202 DBX 49.1,Warnings
+BM387,BM387,DB 202 DBX 49.2,Warnings
+BM388,BM388,DB 202 DBX 49.3,Warnings
+BM389,BM389,DB 202 DBX 49.4,Warnings
+BM390,BM390,DB 202 DBX 49.5,Warnings
+BM391,BM391,DB 202 DBX 49.6,Warnings
+BM392,BM392,DB 202 DBX 49.7,Warnings
+BM393,BM393,DB 202 DBX 48.0,Warnings
+BM394,BM394,DB 202 DBX 48.1,Warnings
+BM395,BM395,DB 202 DBX 48.2,Warnings
+BM396,BM396,DB 202 DBX 48.3,Warnings
+BM397,BM397,DB 202 DBX 48.4,Warnings
+BM398,BM398,DB 202 DBX 48.5,Warnings
+BM399,BM399,DB 202 DBX 48.6,Warnings
+BM400,BM400,DB 202 DBX 48.7,Warnings
+BM401,BM401,DB 202 DBX 51.0,Warnings
+BM402,BM402,DB 202 DBX 51.1,Warnings
+BM403,BM403,DB 202 DBX 51.2,Warnings
+BM404,BM404,DB 202 DBX 51.3,Warnings
+BM405,BM405,DB 202 DBX 51.4,Warnings
+BM406,BM406,DB 202 DBX 51.5,Warnings
+BM407,BM407,DB 202 DBX 51.6,Warnings
+BM408,BM408,DB 202 DBX 51.7,Warnings
+BM409,BM409,DB 202 DBX 50.0,Warnings
+BM410,BM410,DB 202 DBX 50.1,Warnings
+BM411,BM411,DB 202 DBX 50.2,Warnings
+BM412,BM412,DB 202 DBX 50.3,Warnings
+BM413,BM413,DB 202 DBX 50.4,Warnings
+BM414,BM414,DB 202 DBX 50.5,Warnings
+BM415,BM415,DB 202 DBX 50.6,Warnings
+BM416,BM416,DB 202 DBX 50.7,Warnings
+BM417,BM417,DB 202 DBX 53.0,Warnings
+BM418,BM418,DB 202 DBX 53.1,Warnings
+BM419,BM419,DB 202 DBX 53.2,Warnings
+BM420,BM420,DB 202 DBX 53.3,Warnings
+BM421,BM421,DB 202 DBX 53.4,Warnings
+BM422,BM422,DB 202 DBX 53.5,Warnings
+BM423,BM423,DB 202 DBX 53.6,Warnings
+BM424,BM424,DB 202 DBX 53.7,Warnings
+BM425,BM425,DB 202 DBX 52.0,Warnings
+BM426,BM426,DB 202 DBX 52.1,Warnings
+BM427,BM427,DB 202 DBX 52.2,Warnings
+BM428,BM428,DB 202 DBX 52.3,Warnings
+BM429,BM429,DB 202 DBX 52.4,Warnings
+BM430,BM430,DB 202 DBX 52.5,Warnings
+BM431,BM431,DB 202 DBX 52.6,Warnings
+BM432,BM432,DB 202 DBX 52.7,Warnings
+BM433,BM433,DB 202 DBX 55.0,Warnings
+BM434,BM434,DB 202 DBX 55.1,Warnings
+BM435,BM435,DB 202 DBX 55.2,Warnings
+BM436,BM436,DB 202 DBX 55.3,Warnings
+BM437,BM437,DB 202 DBX 55.4,Warnings
+BM438,BM438,DB 202 DBX 55.5,Warnings
+BM439,BM439,DB 202 DBX 55.6,Warnings
+BM440,BM440,DB 202 DBX 55.7,Warnings
+BM441,BM441,DB 202 DBX 54.0,Warnings
+BM442,BM442,DB 202 DBX 54.1,Warnings
+BM443,BM443,DB 202 DBX 54.2,Warnings
+BM444,BM444,DB 202 DBX 54.3,Warnings
+BM445,BM445,DB 202 DBX 54.4,Warnings
+BM446,BM446,DB 202 DBX 54.5,Warnings
+BM447,BM447,DB 202 DBX 54.6,Warnings
+BM448,BM448,DB 202 DBX 54.7,Warnings
+BM449,BM449,DB 202 DBX 57.0,Warnings
+BM450,BM450,DB 202 DBX 57.1,Warnings
+BM451,BM451,DB 202 DBX 57.2,Warnings
+BM452,BM452,DB 202 DBX 57.3,Warnings
+BM453,BM453,DB 202 DBX 57.4,Warnings
+BM454,BM454,DB 202 DBX 57.5,Warnings
+BM455,BM455,DB 202 DBX 57.6,Warnings
+BM456,BM456,DB 202 DBX 57.7,Warnings
+BM457,BM457,DB 202 DBX 56.0,Warnings
+BM458,BM458,DB 202 DBX 56.1,Warnings
+BM459,BM459,DB 202 DBX 56.2,Warnings
+BM460,BM460,DB 202 DBX 56.3,Warnings
+BM461,BM461,DB 202 DBX 56.4,Warnings
+BM462,BM462,DB 202 DBX 56.5,Warnings
+BM463,BM463,DB 202 DBX 56.6,Warnings
+BM464,BM464,DB 202 DBX 56.7,Warnings
+BM465,BM465,DB 202 DBX 59.0,Warnings
+BM466,BM466,DB 202 DBX 59.1,Warnings
+BM467,BM467,DB 202 DBX 59.2,Warnings
+BM468,BM468,DB 202 DBX 59.3,Warnings
+BM469,BM469,DB 202 DBX 59.4,Warnings
+BM470,BM470,DB 202 DBX 59.5,Warnings
+BM471,BM471,DB 202 DBX 59.6,Warnings
+BM472,BM472,DB 202 DBX 59.7,Warnings
+BM473,BM473,DB 202 DBX 58.0,Warnings
+BM474,BM474,DB 202 DBX 58.1,Warnings
+BM475,BM475,DB 202 DBX 58.2,Warnings
+BM476,BM476,DB 202 DBX 58.3,Warnings
+BM477,BM477,DB 202 DBX 58.4,Warnings
+BM478,BM478,DB 202 DBX 58.5,Warnings
+BM479,BM479,DB 202 DBX 58.6,Warnings
+BM480,BM480,DB 202 DBX 58.7,Warnings
+BM481,BM481,DB 202 DBX 61.0,Warnings
+BM482,BM482,DB 202 DBX 61.1,Warnings
+BM483,BM483,DB 202 DBX 61.2,Warnings
+BM484,BM484,DB 202 DBX 61.3,Warnings
+BM485,BM485,DB 202 DBX 61.4,Warnings
+BM486,BM486,DB 202 DBX 61.5,Warnings
+BM487,BM487,DB 202 DBX 61.6,Warnings
+BM488,BM488,DB 202 DBX 61.7,Warnings
+BM489,BM489,DB 202 DBX 60.0,Warnings
+BM490,BM490,DB 202 DBX 60.1,Warnings
+BM491,BM491,DB 202 DBX 60.2,Warnings
+BM492,BM492,DB 202 DBX 60.3,Warnings
+BM493,BM493,DB 202 DBX 60.4,Warnings
+BM494,BM494,DB 202 DBX 60.5,Warnings
+BM495,BM495,DB 202 DBX 60.6,Warnings
+BM496,BM496,DB 202 DBX 60.7,Warnings
+BM497,BM497,DB 202 DBX 63.0,Warnings
+BM498,BM498,DB 202 DBX 63.1,Warnings
+BM499,BM499,DB 202 DBX 63.2,Warnings
+BM500,BM500,DB 202 DBX 63.3,Warnings
+BM501,BM501,DB 202 DBX 63.4,Warnings
+BM502,BM502,DB 202 DBX 63.5,Warnings
+BM503,BM503,DB 202 DBX 63.6,Warnings
+BM504,BM504,DB 202 DBX 63.7,Warnings
+BM505,BM505,DB 202 DBX 62.0,Warnings
+BM506,BM506,DB 202 DBX 62.1,Warnings
+BM507,BM507,DB 202 DBX 62.2,Warnings
+BM508,BM508,DB 202 DBX 62.3,Warnings
+BM509,BM509,DB 202 DBX 62.4,Warnings
+BM510,BM510,DB 202 DBX 62.5,Warnings
+BM511,BM511,DB 202 DBX 62.6,Warnings
+BM512,BM512,DB 202 DBX 62.7,Warnings
+Not-Aus Relais K701 Schlachtung in Schaltschrank CC3 in Störung,Biztonsági relé K701 CC3 hiba,DB 202 DBX 65.0,Error
+Not-Aus Taster in A681 (Schlachthalle/Wand) ist betätigt,Vészkapcsoló in A681 (Vágócsarnok/fal) müködtetve,DB 202 DBX 65.1,Error
+Not-Aus Taster in A683 (Schlachthalle/Podest) ist betätigt,Vészkapcsoló in A683 (VágócsarnokPodessz) müködtetve,DB 202 DBX 65.2,Error
+Not-Aus Taster in A685 (Organeentnahme) ist betätigt,Vészkapcsoló in A685 (Organeentnahme) müködtetve,DB 202 DBX 65.3,Error
+Not-Aus Taster in A687 (Schlachthalle/Podest Waage) ist betätigt,Vészkapcsoló in A687 (Vágócsarnok/Mérleg podesz) müködtetve,DB 202 DBX 65.4,Error
+Not-Aus Taster in A691 (Wand nach Schocker) ist betätigt,Vészkapcsoló in A691 (Az alagútnál) müködtetve,DB 202 DBX 65.5,Error
+Not-Aus Relais K731 Einlagerung in Schaltschrank CC3 in Störung,Biztonsági relé K731 CC3 Hiba,DB 202 DBX 65.6,Error
+Not-Aus Taster in A721 (Einlagerseite Mitte KR1) ist betätigt,Vészkapcsoló in A721 (62 terem közepén) müködtetve,DB 202 DBX 65.7,Error
+Not-Aus Taster in A723 (Einlagerseite Mitte KR2) ist betätigt,Vészkapcsoló in A723 (63 terem közepén) müködtetve,DB 202 DBX 64.0,Error
+Not-Aus Taster in A725 (Einlagerseite Mitte KR3) ist betätigt,Vészkapcsoló in A725 (64 terem közepén) müködtetve,DB 202 DBX 64.1,Error
+Not-Aus Relais K771 Auslagerung in Schaltschrank CC3 in Störung,Biztonsági relé K771 CC3 hiba,DB 202 DBX 64.2,Error
+Not-Aus Taster in A751 (Auslagerseite Ausgang Versand) ist betätigt,Vészkapcsoló in A751 (Kitárolóoldalon húsraktár felé) müködtetve,DB 202 DBX 64.3,Error
+Not-Aus Taster in A753 (Auslagerseite Übergabe KK13) ist betätigt,Vészkapcsoló in A753 (Kitárolóoldalon átadónál KK13) müködtetve,DB 202 DBX 64.4,Error
+Not-Aus Taster in A755 (Auslagerseite Mitte KR2) ist betätigt,Vészkapcsoló in A755 (Kitárolóoldal 63 terem közepén) müködtetve,DB 202 DBX 64.5,Error
+Not-Aus Taster in A757 (Auslagerseite Mitte KR3) ist betätigt,Vészkapcsoló in A757 ((Kitárolóoldal 64 terem közepén) müködtetve,DB 202 DBX 64.6,Error
+Not-Aus Taster in A761 (Zerlegeeingang) ist betätigt,Vészkapcsoló in A761 (Csontozóbemenetnél) müködtetve,DB 202 DBX 64.7,Error
+Motorschutzschalter =WD+CC3-Q501 FU Schlachtf.KK1 ausgelöst,Hõkioldó =WD+CC3-Q501 FU KK1 kioldott,DB 202 DBX 67.0,Error
+Thermistorauswertung FU =WD+CC3-A501 Schlachtf.KK1 angesprochen,Fr.váltó thermistor felügyelet =WD+CC3-A501 KK1,DB 202 DBX 67.1,Error
+Störung FU =WD+CC3-A501 Schlachtförderer KK1 aufgetreten,Frváltó hiba =WD+CC3-A501 KK1 aktív,DB 202 DBX 67.2,Error
+SM532,SM532,DB 202 DBX 67.3,Error
+Motorschutzschalter =WD+CC3-Q511 FU Schalenf.KK3 ausgelöst,Hõkioldó =WD+CC3-Q511 FU KK3 kioldott,DB 202 DBX 67.4,Error
+Thermistorauswertung FU =WD+CC3-A511 Schalenf.KK3 angesprochen,Fr.váltó thermistor felügyelet =WD+CC3-A511 KK3,DB 202 DBX 67.5,Error
+Störung FU =WD+CC3-A511 Schalenförderer KK3 aufgetreten,Frváltó hiba =WD+CC3-A511 KK3 aktív,DB 202 DBX 67.6,Error
+SM536,SM536,DB 202 DBX 67.7,Error
+Motorschutzschalter =WD+CC3-Q521 FU Hakenf.KK4 ausgelöst,Hõkioldó =WD+CC3-Q521 FU KK4 kioldott,DB 202 DBX 66.0,Error
+Thermistorauswertung FU =WD+CC3-A521 Hakenf.KK4 angesprochen,Fr.váltó thermistor felügyelet =WD+CC3-A521 KK4,DB 202 DBX 66.1,Error
+Störung FU =WD+CC3-A521 Hakenförderer KK4 aufgetreten,Frváltó hiba =WD+CC3-A521 KK4 aktív,DB 202 DBX 66.2,Error
+SM540,SM540,DB 202 DBX 66.3,Error
+Motorschutzschalter =WD+CC3-Q531 FU Wiegef.KK2 ausgelöst,Hõkioldó =WD+CC3-Q531 FU KK2 kioldott,DB 202 DBX 66.4,Error
+Thermistorauswertung FU =WD+CC3-A531 Wiegef.KK2 angesprochen,Fr.váltó thermistor felügyelet =WD+CC3-A531 KK2,DB 202 DBX 66.5,Error
+Störung FU =WD+CC3-A531 Wiegeförderer KK2 aufgetreten,Frváltó hiba =WD+CC3-A531 KK2 aktív,DB 202 DBX 66.6,Error
+SM544,SM544,DB 202 DBX 66.7,Error
+Motorschutzschalter =WD+CC3-Q541 FU Waagef.WKK2 ausgelöst,Hõkioldó =WD+CC3-Q541 FU WKK2 kioldott,DB 202 DBX 69.0,Error
+Thermistorauswertung FU =WD+CC3-A541 Waagef.WKK2 angesprochen,Fr.váltó thermistor felügyelet =WD+CC3-A541 WKK2,DB 202 DBX 69.1,Error
+Störung FU =WD+CC3-A541 Waageförderer WKK2 aufgetreten,Frváltó hiba =WD+CC3-A541 WKK2 aktív,DB 202 DBX 69.2,Error
+SM548,SM548,DB 202 DBX 69.3,Error
+Motorschutzschalter =WD+CC3-Q561 FU Schocktunnelf.KSK ausgelöst,Hõkioldó =WD+CC3-Q561 FU KSK kioldott,DB 202 DBX 69.4,Error
+Thermistorrelais =WD+CC3-F573/577/585/587 KSK angesprochen,Thermisztorrelé =WD+CC3-F573/577/585/587 KSK ,DB 202 DBX 69.5,Error
+Störung FU =WD+CC3-A561 Schocktunnelförderer KSK aufgetreten,Frváltó hiba =WD+CC3-A561 KSK aktív,DB 202 DBX 69.6,Error
+Absicherung Antriebe =WD+CC3-F572/576/582/586 KSK ausgelöst,Frekvenciaváltó kismegszakító =WD+CC3-F572/576/582/586 KSK kioldott,DB 202 DBX 69.7,Error
+Motorschutzschalter =WD+CC3-Q591 FU Zubringf.KK7 ausgelöst,Hõkioldó =WD+CC3-Q591 FU KK7 kioldott,DB 202 DBX 68.0,Error
+Thermistorauswertung FU =WD+CC3-A591 Zubringf.KK7 angesprochen,Fr.váltó thermistor felügyelet =WD+CC3-A591 KK7,DB 202 DBX 68.1,Error
+Störung FU =WD+CC3-A591 Zubringförderer KK7 aufgetreten,Frváltó hiba =WD+CC3-A591 KK7 aktív,DB 202 DBX 68.2,Error
+SM556,SM556,DB 202 DBX 68.3,Error
+Motorschutzschalter =WD+CC3-Q601 FU Einlagerf.KK9 ausgelöst,Hõkioldó =WD+CC3-Q601 FU KK9 kioldott,DB 202 DBX 68.4,Error
+Thermistorauswertung FU =WD+CC3-A601 Einlagerf.KK9 angesprochen,Fr.váltó thermistor felügyelet =WD+CC3-A601 KK9,DB 202 DBX 68.5,Error
+Störung FU =WD+CC3-A601 Einlagerförderer KK9 aufgetreten,Frváltó hiba =WD+CC3-A601 KK9 aktív,DB 202 DBX 68.6,Error
+SM560,SM560,DB 202 DBX 68.7,Error
+Motorschutzschalter =WD+CC3-Q611 FU Abzugsf.KK51 ausgelöst,Hõkioldó =WD+CC3-Q611 FU KK51 kioldott,DB 202 DBX 71.0,Error
+Thermistorauswertung FU =WD+CC3-A611 Abzugsf.KK51 angesprochen,Fr.váltó thermistor felügyelet =WD+CC3-A611 KK51,DB 202 DBX 71.1,Error
+Störung FU =WD+CC3-A611 Abzugsförderer KK51 aufgetreten,Frváltó hiba =WD+CC3-A611 KK51 aktív,DB 202 DBX 71.2,Error
+SM564,SM564,DB 202 DBX 71.3,Error
+Motorschutzschalter =WD+CC3-Q621 FU Übergabef.KK13 ausgelöst,Hõkioldó =WD+CC3-Q621 FU KK13 kioldott,DB 202 DBX 71.4,Error
+Thermistorauswertung FU =WD+CC3-A621 Übergabef.KK13 angesprochen,Fr.váltó thermistor felügyelet =WD+CC3-A621 KK13,DB 202 DBX 71.5,Error
+Störung FU =WD+CC3-A621 Übergabeförderer KK13 aufgetreten,Frváltó hiba =WD+CC3-A621 KK13 aktív,DB 202 DBX 71.6,Error
+SM568,SM568,DB 202 DBX 71.7,Error
+Motorschutzschalter =WD+CC3-Q631 FU Abzugsf.KK52 ausgelöst,Hõkioldó =WD+CC3-Q631 FU KK52 kioldott,DB 202 DBX 70.0,Error
+Thermistorauswertung FU =WD+CC3-A631 Abzugsf.KK52 angesprochen,Fr.váltó thermistor felügyelet =WD+CC3-A631 KK52,DB 202 DBX 70.1,Error
+Störung FU =WD+CC3-A631 Abzugsförderer KK52 aufgetreten,Frváltó hiba =WD+CC3-A631 KK52 aktív,DB 202 DBX 70.2,Error
+SM572,SM572,DB 202 DBX 70.3,Error
+Motorschutzschalter =WD+CC3-Q641 FU Waageförderer WKK52 ausgelöst,Hõkioldó =WD+CC3-Q641 FU WKK52 kioldott,DB 202 DBX 70.4,Error
+Thermistorauswertung FU =WD+CC3-A641 Waagef.WKK52 angesprochen,Fr.váltó thermistor felügyelet =WD+CC3-A641 WKK52,DB 202 DBX 70.5,Error
+Störung FU =WD+CC3-A641 Waageförderer WKK52 aufgetreten,Frváltó hiba =WD+CC3-A641 Waageförderer WKK52 aufgetreten,DB 202 DBX 70.6,Error
+SM576,SM576,DB 202 DBX 70.7,Error
+SM577,SM577,DB 202 DBX 73.0,Error
+SM578,SM578,DB 202 DBX 73.1,Error
+SM579,SM579,DB 202 DBX 73.2,Error
+SM580,SM580,DB 202 DBX 73.3,Error
+SM581,SM581,DB 202 DBX 73.4,Error
+SM582,SM582,DB 202 DBX 73.5,Error
+SM583,SM583,DB 202 DBX 73.6,Error
+SM584,SM584,DB 202 DBX 73.7,Error
+SM585,SM585,DB 202 DBX 72.0,Error
+SM586,SM586,DB 202 DBX 72.1,Error
+SM587,SM587,DB 202 DBX 72.2,Error
+SM588,SM588,DB 202 DBX 72.3,Error
+SM589,SM589,DB 202 DBX 72.4,Error
+SM590,SM590,DB 202 DBX 72.5,Error
+SM591,SM591,DB 202 DBX 72.6,Error
+SM592,SM592,DB 202 DBX 72.7,Error
+Motorschutzschalter =WD+CC2-Q281 Stapelförderer SK01 ausgelöst,Hõkioldó =WD+CC2-Q281 Teremkonvejor SK01 kioldott,DB 202 DBX 75.0,Error
+Motorschutzschalter =WD+CC2-Q284 Stapelförderer SK02 ausgelöst,Hõkioldó =WD+CC2-Q284 Teremkonvejor SK02 kioldott,DB 202 DBX 75.1,Error
+Motorschutzschalter =WD+CC2-Q287 Stapelförderer SK03 ausgelöst,Hõkioldó =WD+CC2-Q287 Teremkonvejor SK03 kioldott,DB 202 DBX 75.2,Error
+Motorschutzschalter =WD+CC2-Q291 Stapelförderer SK04 ausgelöst,Hõkioldó =WD+CC2-Q291 Teremkonvejor SK04 kioldott,DB 202 DBX 75.3,Error
+Motorschutzschalter =WD+CC2-Q294 Stapelförderer SK05 ausgelöst,Hõkioldó =WD+CC2-Q294 Teremkonvejor SK05 kioldott,DB 202 DBX 75.4,Error
+Motorschutzschalter =WD+CC2-Q297 Stapelförderer SK06 ausgelöst,Hõkioldó =WD+CC2-Q297 Teremkonvejor SK06 kioldott,DB 202 DBX 75.5,Error
+Motorschutzschalter =WD+CC2-Q301 Stapelförderer SK07 ausgelöst,Hõkioldó =WD+CC2-Q301 Teremkonvejor SK07 kioldott,DB 202 DBX 75.6,Error
+Motorschutzschalter =WD+CC2-Q304 Stapelförderer SK08 ausgelöst,Hõkioldó =WD+CC2-Q304 Teremkonvejor SK08 kioldott,DB 202 DBX 75.7,Error
+Motorschutzschalter =WD+CC2-Q307 Stapelförderer SK09 ausgelöst,Hõkioldó =WD+CC2-Q307 Teremkonvejor SK09 kioldott,DB 202 DBX 74.0,Error
+Motorschutzschalter =WD+CC2-Q311 Stapelförderer SK10 ausgelöst,Hõkioldó =WD+CC2-Q311 Teremkonvejor SK10 kioldott,DB 202 DBX 74.1,Error
+Motorschutzschalter =WD+CC2-Q314 Stapelförderer SK11 ausgelöst,Hõkioldó =WD+CC2-Q314 Teremkonvejor SK11 kioldott,DB 202 DBX 74.2,Error
+Motorschutzschalter =WD+CC2-Q317 Stapelförderer SK12 ausgelöst,Hõkioldó =WD+CC2-Q317 Teremkonvejor SK12 kioldott,DB 202 DBX 74.3,Error
+Motorschutzschalter =WD+CC2-Q321 Stapelförderer SK13 ausgelöst,Hõkioldó =WD+CC2-Q321 Teremkonvejor SK13 kioldott,DB 202 DBX 74.4,Error
+Motorschutzschalter =WD+CC2-Q324 Stapelförderer SK14 ausgelöst,Hõkioldó =WD+CC2-Q324 Teremkonvejor SK14 kioldott,DB 202 DBX 74.5,Error
+Motorschutzschalter =WD+CC2-Q327 Stapelförderer SK15 ausgelöst,Hõkioldó =WD+CC2-Q327 Teremkonvejor SK15 kioldott,DB 202 DBX 74.6,Error
+Motorschutzschalter =WD+CC2-Q331 Stapelförderer SK16 ausgelöst,Hõkioldó =WD+CC2-Q331 Teremkonvejor SK16 kioldott,DB 202 DBX 74.7,Error
+Motorschutzschalter =WD+CC2-Q334 Stapelförderer SK17 ausgelöst,Hõkioldó =WD+CC2-Q334 Teremkonvejor SK17 kioldott,DB 202 DBX 77.0,Error
+Motorschutzschalter =WD+CC2-Q341 Stapelförderer SK18 ausgelöst,Hõkioldó =WD+CC2-Q341 Teremkonvejor SK18 kioldott,DB 202 DBX 77.1,Error
+Motorschutzschalter =WD+CC2-Q344 Stapelförderer SK19 ausgelöst,Hõkioldó =WD+CC2-Q344 Teremkonvejor SK19 kioldott,DB 202 DBX 77.2,Error
+Motorschutzschalter =WD+CC2-Q347 Stapelförderer SK20 ausgelöst,Hõkioldó =WD+CC2-Q347 Teremkonvejor SK20 kioldott,DB 202 DBX 77.3,Error
+Motorschutzschalter =WD+CC2-Q351 Stapelförderer SK21 ausgelöst,Hõkioldó =WD+CC2-Q351 Teremkonvejor SK21 kioldott,DB 202 DBX 77.4,Error
+Motorschutzschalter =WD+CC2-Q354 Stapelförderer SK22 ausgelöst,Hõkioldó =WD+CC2-Q354 Teremkonvejor SK22 kioldott,DB 202 DBX 77.5,Error
+Motorschutzschalter =WD+CC2-Q357 Stapelförderer SK23 ausgelöst,Hõkioldó =WD+CC2-Q357 Teremkonvejor SK23 kioldott,DB 202 DBX 77.6,Error
+Motorschutzschalter =WD+CC2-Q361 Stapelförderer SK24 ausgelöst,Hõkioldó =WD+CC2-Q361 Teremkonvejor SK24 kioldott,DB 202 DBX 77.7,Error
+Motorschutzschalter =WD+CC2-Q364 Stapelförderer SK25 ausgelöst,Hõkioldó =WD+CC2-Q364 Teremkonvejor SK25 kioldott,DB 202 DBX 76.0,Error
+Motorschutzschalter =WD+CC2-Q367 Stapelförderer SK26 ausgelöst,Hõkioldó =WD+CC2-Q367 Teremkonvejor SK26 kioldott,DB 202 DBX 76.1,Error
+Motorschutzschalter =WD+CC2-Q371 Stapelförderer SK27 ausgelöst,Hõkioldó =WD+CC2-Q371 Teremkonvejor SK27 kioldott,DB 202 DBX 76.2,Error
+Motorschutzschalter =WD+CC2-Q374 Stapelförderer SK28 ausgelöst,Hõkioldó =WD+CC2-Q374 Teremkonvejor SK28 kioldott,DB 202 DBX 76.3,Error
+Motorschutzschalter =WD+CC2-Q377 Stapelförderer SK29 ausgelöst,Hõkioldó =WD+CC2-Q377 Teremkonvejor SK29 kioldott,DB 202 DBX 76.4,Error
+Motorschutzschalter =WD+CC2-Q381 Stapelförderer SK30 ausgelöst,Hõkioldó =WD+CC2-Q381 Teremkonvejor SK30 kioldott,DB 202 DBX 76.5,Error
+Motorschutzschalter =WD+CC2-Q384 Stapelförderer SK31 ausgelöst,Hõkioldó =WD+CC2-Q384 Teremkonvejor SK31 kioldott,DB 202 DBX 76.6,Error
+Motorschutzschalter =WD+CC2-Q387 Stapelförderer SK32 ausgelöst,Hõkioldó =WD+CC2-Q387 Teremkonvejor SK32 kioldott,DB 202 DBX 76.7,Error
+Motorschutzschalter =WD+CC2-Q391 Stapelförderer SK33 ausgelöst,Hõkioldó =WD+CC2-Q391 Teremkonvejor SK33 kioldott,DB 202 DBX 79.0,Error
+Motorschutzschalter =WD+CC2-Q401 Stapelförderer SK34 ausgelöst,Hõkioldó =WD+CC2-Q401 Teremkonvejor SK34 kioldott,DB 202 DBX 79.1,Error
+Motorschutzschalter =WD+CC2-Q404 Stapelförderer SK35 ausgelöst,Hõkioldó =WD+CC2-Q404 Teremkonvejor SK35 kioldott,DB 202 DBX 79.2,Error
+Motorschutzschalter =WD+CC2-Q407 Stapelförderer SK36 ausgelöst,Hõkioldó =WD+CC2-Q407 Teremkonvejor SK36 kioldott,DB 202 DBX 79.3,Error
+Motorschutzschalter =WD+CC2-Q411 Stapelförderer SK37 ausgelöst,Hõkioldó =WD+CC2-Q411 Teremkonvejor SK37 kioldott,DB 202 DBX 79.4,Error
+Motorschutzschalter =WD+CC2-Q414 Stapelförderer SK38 ausgelöst,Hõkioldó =WD+CC2-Q414 Teremkonvejor SK38 kioldott,DB 202 DBX 79.5,Error
+Motorschutzschalter =WD+CC2-Q417 Stapelförderer SK39 ausgelöst,Hõkioldó =WD+CC2-Q417 Teremkonvejor SK39 kioldott,DB 202 DBX 79.6,Error
+Motorschutzschalter =WD+CC2-Q421 Stapelförderer SK40 ausgelöst,Hõkioldó =WD+CC2-Q421 Teremkonvejor SK40 kioldott,DB 202 DBX 79.7,Error
+Motorschutzschalter =WD+CC2-Q424 Stapelförderer SK41 ausgelöst,Hõkioldó =WD+CC2-Q424 Teremkonvejor SK41 kioldott,DB 202 DBX 78.0,Error
+Motorschutzschalter =WD+CC2-Q427 Stapelförderer SK42 ausgelöst,Hõkioldó =WD+CC2-Q427 Teremkonvejor SK42 kioldott,DB 202 DBX 78.1,Error
+Motorschutzschalter =WD+CC2-Q431 Stapelförderer SK43 ausgelöst,Hõkioldó =WD+CC2-Q431 Teremkonvejor SK43 kioldott,DB 202 DBX 78.2,Error
+Motorschutzschalter =WD+CC2-Q434 Stapelförderer SK44 ausgelöst,Hõkioldó =WD+CC2-Q434 Teremkonvejor SK44 kioldott,DB 202 DBX 78.3,Error
+Motorschutzschalter =WD+CC2-Q437 Stapelförderer SK45 ausgelöst,Hõkioldó =WD+CC2-Q437 Teremkonvejor SK45 kioldott,DB 202 DBX 78.4,Error
+Motorschutzschalter =WD+CC2-Q441 Stapelförderer SK46 ausgelöst,Hõkioldó =WD+CC2-Q441 Teremkonvejor SK46 kioldott,DB 202 DBX 78.5,Error
+Motorschutzschalter =WD+CC2-Q444 Stapelförderer SK47 ausgelöst,Hõkioldó =WD+CC2-Q444 Teremkonvejor SK47 kioldott,DB 202 DBX 78.6,Error
+Motorschutzschalter =WD+CC2-Q447 Stapelförderer SK48 ausgelöst,Hõkioldó =WD+CC2-Q447 Teremkonvejor SK48 kioldott,DB 202 DBX 78.7,Error
+Motorschutzschalter =WD+CC2-Q451 Stapelförderer SK49 ausgelöst,Hõkioldó =WD+CC2-Q451 Teremkonvejor SK49 kioldott,DB 202 DBX 81.0,Error
+Motorschutzschalter =WD+CC2-Q454 Stapelförderer SK50 ausgelöst,Hõkioldó =WD+CC2-Q454 Teremkonvejor SK50 kioldott,DB 202 DBX 81.1,Error
+Motorschutzschalter =WD+CC2-Q241 Höhenelevator KK14 ausgelöst,Hõkioldó =WD+CC2-Q241 Höhenelevator KK14 kioldott,DB 202 DBX 81.2,Error
+Motorschutzschalter =WD+CC2-Q243 FU Ablegeelevator KK6 ausgelöst,Hõkioldó =WD+CC2-Q243 Leeresztõ konvejor KK6 kioldott,DB 202 DBX 81.3,Error
+Thermistorauswertung FU Ablegeelevator KK6 angesprochen,Fr.váltó thermistor felügyelet Leeresztõ konvejor KK6,DB 202 DBX 81.4,Error
+Störung FU Ablegeelevbator KK6 aufgetreten,Zavar gyakorisága Leeresztõ konvejor KK6,DB 202 DBX 81.5,Error
+Motorschutzschalter =WD+CC2-Q245 Propeller KK52 ausgelöst,Hõkioldó =WD+CC2-Q245 motorvédõ kapcsoló KK52 kioldott,DB 202 DBX 81.6,Error
+SM648,SM648,DB 202 DBX 81.7,Error
+SM649,SM649,DB 202 DBX 80.0,Error
+SM650,SM650,DB 202 DBX 80.1,Error
+SM651,SM651,DB 202 DBX 80.2,Error
+SM652,SM652,DB 202 DBX 80.3,Error
+SM653,SM653,DB 202 DBX 80.4,Error
+SM654,SM654,DB 202 DBX 80.5,Error
+SM655,SM655,DB 202 DBX 80.6,Error
+SM656,SM656,DB 202 DBX 80.7,Error
+Spannstationsschalter =DI-S28.4 Schlachtf.KK1 angefahren,Láncfeszítõ kapcsoló =DI-S28.4 KK1 aktív,DB 202 DBX 83.0,Error
+Spannstationsschalter =DI-S21.0 Schalenf.KK3 angefahren,Láncfeszítõ kapcsoló =DI-S21.0 KK3 aktív,DB 202 DBX 83.1,Error
+Spannstationsschalter =DI-S21.5 Hakenf.KK4 angefahren,Láncfeszítõ kapcsoló =DI-S21.5 KK4 aktív,DB 202 DBX 83.2,Error
+Spannstationsschalter =DI-S40.5 Wiegef.KK2 angefahren,Láncfeszítõ kapcsoló =DI-S40.5 KK2 aktív,DB 202 DBX 83.3,Error
+Verdrehantriebsschalter =DI-S41.0 am 1.Motor Schocker angefahren,Elfordulásjelzõ =DI-S41.0 am 1.Motor az alagútban jelzett,DB 202 DBX 83.4,Error
+Verdrehantriebsschalter =DI-S41.1 am 2.Motor Schocker angefahren,Elfordulásjelzõ =DI-S41.1 am 2.Motor az alagútban jelzett,DB 202 DBX 83.5,Error
+Verdrehantriebsschalter =DI-S41.2 am 3.Motor Schocker angefahren,Elfordulásjelzõ =DI-S41.2 am 3.Motor az alagútban jelzett,DB 202 DBX 83.6,Error
+Verdrehantriebsschalter =DI-S41.3 am 4.Motor Schocker angefahren,Elfordulásjelzõ =DI-S41.3 am 4.Motor az alagútban jelzett,DB 202 DBX 83.7,Error
+Spannstationsschalter =DI-S41.4 Schocktunnelf.KSK angefahren,Láncfeszítõ kapcsoló =DI-S41.4 KSK aktív,DB 202 DBX 82.0,Error
+Spannstationsschalter =DI-S60.7 Zubringf.KK7 angefahren,Láncfeszítõ kapcsoló =DI-S60.7 KK7 aktív,DB 202 DBX 82.1,Error
+Spannstationsschalter =DI-S67.7 Einlagerf.KK9 angefahren,Láncfeszítõ kapcsoló =DI-S67.7 KK9 aktív,DB 202 DBX 82.2,Error
+Spannstationsschalter =DI-S81.1 Abzugsf.KK51 angefahren,Láncfeszítõ kapcsoló =DI-S81.1 KK51 aktív,DB 202 DBX 82.3,Error
+Spannstationsschalter =DI-S101.0 Abzugsf.KK52 angefahren,Láncfeszítõ kapcsoló =DI-S101.0 KK52 aktív,DB 202 DBX 82.4,Error
+Trolleykontrolle =DI-B41.7 vor EH Schocktunnelf.KSK angesprochen,Ellenõrzése a kocsi elé gyûjtemény =DI-B41.7 KSK címzett (hajlított),DB 202 DBX 82.5,Error
+SM671,SM671,DB 202 DBX 82.6,Error
+SM672,SM672,DB 202 DBX 82.7,Error
+SM673,SM673,DB 202 DBX 85.0,Error
+SM674,SM674,DB 202 DBX 85.1,Error
+SM675,SM675,DB 202 DBX 85.2,Error
+SM676,SM676,DB 202 DBX 85.3,Error
+SM677,SM677,DB 202 DBX 85.4,Error
+SM678,SM678,DB 202 DBX 85.5,Error
+SM679,SM679,DB 202 DBX 85.6,Error
+SM680,SM680,DB 202 DBX 85.7,Error
+SM681,SM681,DB 202 DBX 84.0,Error
+SM682,SM682,DB 202 DBX 84.1,Error
+SM683,SM683,DB 202 DBX 84.2,Error
+SM684,SM684,DB 202 DBX 84.3,Error
+SM685,SM685,DB 202 DBX 84.4,Error
+SM686,SM686,DB 202 DBX 84.5,Error
+SM687,SM687,DB 202 DBX 84.6,Error
+Kühlraum 3 ist geblockt wegen Einlagerung von KK9,A hármas terem blokkolva van a kk9 betárolás miatt,DB 202 DBX 84.7,Error
+1.Austaster Schlachtband in A200 ist unterbrochen,Ki gomb meghibásodott Bontópálya A200-nál,DB 202 DBX 87.0,Error
+2.Austaster Schlachtband in A241 ist unterbrochen,Bontópálya ki gomb meghibásodott A271,DB 202 DBX 87.1,Error
+3.Austaster Schlachtband in A320 ist unterbrochen,Bontópálya ki gomb meghibásodott A320,DB 202 DBX 87.2,Error
+1.Austaster Wiegeförderer KK2 in A320 ist unterbrochen,Ki gomb meghibásodott KK2 A320-nál,DB 202 DBX 87.3,Error
+2.Austaster Wiegeförderer KK2 in A360 ist unterbrochen,Ki gomb meghibásodott KK2 A360,DB 202 DBX 87.4,Error
+3.Austaster Wiegeförderer KK2 in A400 ist unterbrochen,Ki gomb meghibásodott KK2 A400,DB 202 DBX 87.5,Error
+1.Austaster Schocktunnelförderer KSK in A400 ist unterbrochen,Ki gomb meghibásodott alagútban A400-nál,DB 202 DBX 87.6,Error
+2.Austaster Schocktunnelförderer KSK in A474 ist unterbrochen,Ki gomb meghibásodott alagútban A474,DB 202 DBX 87.7,Error
+1.Austaster Zubringförderer KK7 in A600 ist unterbrochen,Ki gomb meghibásodott KK7 A600-nél,DB 202 DBX 86.0,Error
+2.Austaster Zubringförderer KK7 in A604 ist unterbrochen,Ki gomb meghibásodott KK7 A604,DB 202 DBX 86.1,Error
+1.Austaster Einlagerförderer KK9 in A474 ist unterbrochen,Ki gomb meghibásodott KK9 A474-nél,DB 202 DBX 86.2,Error
+2.Austaster Einlagerförderer KK9 in A514 ist unterbrochen,Ki gomb meghibásodott KK9 A514,DB 202 DBX 86.3,Error
+3.Austaster Einlagerförderer KK9 in A554 ist unterbrochen,Ki gomb meghibásodott KK9 A554,DB 202 DBX 86.4,Error
+4.Austaster Einlagerförderer KK9 in A674 ist unterbrochen,Ki gomb meghibásodott KK9 A674,DB 202 DBX 86.5,Error
+5.Austaster Einlagerförderer KK9 in A600 ist unterbrochen,Ki gomb meghibásodott KK9 A600,DB 202 DBX 86.6,Error
+1.Austaster Abzugsförderer KK51 in A774 ist unterbrochen,Ki gomb meghibásodott KK51 A774-nél,DB 202 DBX 86.7,Error
+2.Austaster Abzugsförderer KK51 in A800 ist unterbrochen,Ki gomb meghibásodott KK51 A800-nél,DB 202 DBX 89.0,Error
+1.Austaster Abzugsförderer KK52 in A894 ist unterbrochen,Ki gomb meghibásodott KK52 A894-nél,DB 202 DBX 89.1,Error
+2.Austaster Abzugsförderer KK52 in A974 ist unterbrochen,Ki gomb meghibásodott KK52 A974,DB 202 DBX 89.2,Error
+3.Austaster Abzugsförderer KK52 in A1000 ist unterbrochen,Ki gomb meghibásodott KK52 A1000,DB 202 DBX 89.3,Error
+Austaster Ablegeelevator KK6 in A1003 ist unterbrochen,Ki gomb meghibásodott KK6 A1003,DB 202 DBX 89.4,Error
+SM710,SM710,DB 202 DBX 89.5,Error
+SM711,SM711,DB 202 DBX 89.6,Error
+SM712,SM712,DB 202 DBX 89.7,Error
+SM713,SM713,DB 202 DBX 88.0,Error
+SM714,SM714,DB 202 DBX 88.1,Error
+SM715,SM715,DB 202 DBX 88.2,Error
+SM716,SM716,DB 202 DBX 88.3,Error
+SM717,SM717,DB 202 DBX 88.4,Error
+SM718,SM718,DB 202 DBX 88.5,Error
+SM719,SM719,DB 202 DBX 88.6,Error
+SM720,SM720,DB 202 DBX 88.7,Error
+Inkrementalgeber-/PulsError Schlachtförderer KK1 erkannt,Jeladó-/Impulzushiba KK1,DB 202 DBX 91.0,Error
+Inkrementalgeber-/PulsError Schalenförderer KK3 erkannt,Jeladó-/Impulzushiba KK3,DB 202 DBX 91.1,Error
+Inkrementalgeber-/PulsError Hakenförderer KK4 erkannt,Jeladó-/Impulzushiba KK4,DB 202 DBX 91.2,Error
+Inkrementalgeber-/PulsError Wiegeförderer KK2 erkannt,Jeladó-/Impulzushiba KK2,DB 202 DBX 91.3,Error
+Inkrementalgeber-/PulsError Einlagerförderer KK9 erkannt,Jeladó-/Impulzushiba KK9,DB 202 DBX 91.4,Error
+Inkrementalgeber-/PulsError Abzugsförderer KK51 erkannt,Jeladó-/Impulzushiba KK51,DB 202 DBX 91.5,Error
+Inkrementalgeber-/PulsError Übergabeförderer KK13 erkannt,Jeladó-/Impulzushiba KK13,DB 202 DBX 91.6,Error
+Inkrementalgeber-/PulsError Abzugsförderer KK52 erkannt,Jeladó-/Impulzushiba KK52,DB 202 DBX 91.7,Error
+SM729,SM729,DB 202 DBX 90.0,Error
+SM730,SM730,DB 202 DBX 90.1,Error
+SM731,SM731,DB 202 DBX 90.2,Error
+SM732,SM732,DB 202 DBX 90.3,Error
+SM733,SM733,DB 202 DBX 90.4,Error
+SM734,SM734,DB 202 DBX 90.5,Error
+SM735,SM735,DB 202 DBX 90.6,Error
+SM736,SM736,DB 202 DBX 90.7,Error
+TaktError bei Näherungsschalter EH 2.Bein aufwärts in KK1 aufgetreten,Ciklushiba közelítéskapcsolónál beemelõnél KK1,DB 202 DBX 93.0,Error
+TaktError bei Näherungsschalter BU-Takt in KK3 aufgetreten,Ciklushiba közelítéskapcsolónál kitárolásnál KK3,DB 202 DBX 93.1,Error
+TaktError bei Näherungsschalter BU-Takt in KK4 aufgetreten,Ciklushiba közelítéskapcsolónál kitárolásnál KK4,DB 202 DBX 93.2,Error
+TaktError bei Näherungsschalter EH 2.Bein aufwärts in KK2 aufgetreten,Ciklushiba közelítéskapcsolónál beemelõnél KK2,DB 202 DBX 93.3,Error
+TaktError bei Näherungsschalter 1.Einhebung aufwärts in KK9 aufgetreten,Ciklushiba közelítéskapcsolónál 1.Beemelõnél KK9,DB 202 DBX 93.4,Error
+TaktError bei Näherungsschalter 2.Einhebung aufwärts in KK9 aufgetreten,Ciklushiba közelítéskapcsolónál 2.Beemelõnél KK9,DB 202 DBX 93.5,Error
+TaktError bei Näherungsschalter Auslagertakt in KK51 aufgetreten,Ciklushiba közelítéskapcsolónál kitárolásnál KK51,DB 202 DBX 93.6,Error
+TaktError bei Näherungsschalter Einhebung aufwärts in KK51 aufgetreten,Ciklushiba közelítéskapcsolónál beemelõnél KK51 ,DB 202 DBX 93.7,Error
+TaktError bei Näherungsschalter Takt in KK13 aufgetreten,Ciklushiba közelítéskapcsolónál KK13,DB 202 DBX 92.0,Error
+TaktError bei Näherungsschalter Auslagertakt in KK52 aufgetreten,Ciklushiba közelítéskapcsolónál kitárolásnál KK52,DB 202 DBX 92.1,Error
+TaktError bei Näherungsschalter Rückstrang Direktversand in KK52 aufgetreten,"Ciklushiba közelítéskapcsolónál kitárolásnál ""returnside"" KK52",DB 202 DBX 92.2,Error
+SM748,SM748,DB 202 DBX 92.3,Error
+SM749,SM749,DB 202 DBX 92.4,Error
+SM750,SM750,DB 202 DBX 92.5,Error
+SM751,SM751,DB 202 DBX 92.6,Error
+SM752,SM752,DB 202 DBX 92.7,Error
+Sicherungsautomat +CC1-F38 für die KSVen hat ausgelöst,Kismegszakító +CC1-F38 KSVEN kioldott,DB 202 DBX 95.0,Error
+"Sammelstörung PROFIBUS Master 2 ""Kühlhaus"" aktiv (siehe Übersicht)","Gyüjtõhiba PROFIBUS Master 2 ""Hûtõház"" aktiv (lásd áttekintés)",DB 202 DBX 95.1,Error
+SM755,SM755,DB 202 DBX 95.2,Error
+SM756,SM756,DB 202 DBX 95.3,Error
+SM757,SM757,DB 202 DBX 95.4,Error
+SM758,SM758,DB 202 DBX 95.5,Error
+SM759,SM759,DB 202 DBX 95.6,Error
+SM760,SM760,DB 202 DBX 95.7,Error
+SM761,SM761,DB 202 DBX 94.0,Error
+SM762,SM762,DB 202 DBX 94.1,Error
+SM763,SM763,DB 202 DBX 94.2,Error
+SM764,SM764,DB 202 DBX 94.3,Error
+SM765,SM765,DB 202 DBX 94.4,Error
+SM766,SM766,DB 202 DBX 94.5,Error
+SM767,SM767,DB 202 DBX 94.6,Error
+SM768,SM768,DB 202 DBX 94.7,Error
+SM769,SM769,DB 202 DBX 97.0,Error
+SM770,SM770,DB 202 DBX 97.1,Error
+SM771,SM771,DB 202 DBX 97.2,Error
+SM772,SM772,DB 202 DBX 97.3,Error
+SM773,SM773,DB 202 DBX 97.4,Error
+SM774,SM774,DB 202 DBX 97.5,Error
+SM775,SM775,DB 202 DBX 97.6,Error
+SM776,SM776,DB 202 DBX 97.7,Error
+SM777,SM777,DB 202 DBX 96.0,Error
+SM778,SM778,DB 202 DBX 96.1,Error
+SM779,SM779,DB 202 DBX 96.2,Error
+SM780,SM780,DB 202 DBX 96.3,Error
+SM781,SM781,DB 202 DBX 96.4,Error
+SM782,SM782,DB 202 DBX 96.5,Error
+SM783,SM783,DB 202 DBX 96.6,Error
+SM784,SM784,DB 202 DBX 96.7,Error
+SM785,SM785,DB 202 DBX 99.0,Error
+SM786,SM786,DB 202 DBX 99.1,Error
+SM787,SM787,DB 202 DBX 99.2,Error
+SM788,SM788,DB 202 DBX 99.3,Error
+SM789,SM789,DB 202 DBX 99.4,Error
+SM790,SM790,DB 202 DBX 99.5,Error
+SM791,SM791,DB 202 DBX 99.6,Error
+SM792,SM792,DB 202 DBX 99.7,Error
+SM793,SM793,DB 202 DBX 98.0,Error
+SM794,SM794,DB 202 DBX 98.1,Error
+SM795,SM795,DB 202 DBX 98.2,Error
+SM796,SM796,DB 202 DBX 98.3,Error
+SM797,SM797,DB 202 DBX 98.4,Error
+SM798,SM798,DB 202 DBX 98.5,Error
+SM799,SM799,DB 202 DBX 98.6,Error
+SM800,SM800,DB 202 DBX 98.7,Error
+SM801,SM801,DB 202 DBX 101.0,Error
+SM802,SM802,DB 202 DBX 101.1,Error
+SM803,SM803,DB 202 DBX 101.2,Error
+SM804,SM804,DB 202 DBX 101.3,Error
+SM805,SM805,DB 202 DBX 101.4,Error
+SM806,SM806,DB 202 DBX 101.5,Error
+SM807,SM807,DB 202 DBX 101.6,Error
+SM808,SM808,DB 202 DBX 101.7,Error
+SM809,SM809,DB 202 DBX 100.0,Error
+SM810,SM810,DB 202 DBX 100.1,Error
+SM811,SM811,DB 202 DBX 100.2,Error
+SM812,SM812,DB 202 DBX 100.3,Error
+SM813,SM813,DB 202 DBX 100.4,Error
+SM814,SM814,DB 202 DBX 100.5,Error
+SM815,SM815,DB 202 DBX 100.6,Error
+SM816,SM816,DB 202 DBX 100.7,Error
+SM817,SM817,DB 202 DBX 103.0,Error
+SM818,SM818,DB 202 DBX 103.1,Error
+SM819,SM819,DB 202 DBX 103.2,Error
+SM820,SM820,DB 202 DBX 103.3,Error
+SM821,SM821,DB 202 DBX 103.4,Error
+SM822,SM822,DB 202 DBX 103.5,Error
+SM823,SM823,DB 202 DBX 103.6,Error
+SM824,SM824,DB 202 DBX 103.7,Error
+SM825,SM825,DB 202 DBX 102.0,Error
+SM826,SM826,DB 202 DBX 102.1,Error
+SM827,SM827,DB 202 DBX 102.2,Error
+SM828,SM828,DB 202 DBX 102.3,Error
+SM829,SM829,DB 202 DBX 102.4,Error
+SM830,SM830,DB 202 DBX 102.5,Error
+SM831,SM831,DB 202 DBX 102.6,Error
+SM832,SM832,DB 202 DBX 102.7,Error
+SM833,SM833,DB 202 DBX 105.0,Error
+SM834,SM834,DB 202 DBX 105.1,Error
+SM835,SM835,DB 202 DBX 105.2,Error
+SM836,SM836,DB 202 DBX 105.3,Error
+SM837,SM837,DB 202 DBX 105.4,Error
+SM838,SM838,DB 202 DBX 105.5,Error
+SM839,SM839,DB 202 DBX 105.6,Error
+SM840,SM840,DB 202 DBX 105.7,Error
+SM841,SM841,DB 202 DBX 104.0,Error
+SM842,SM842,DB 202 DBX 104.1,Error
+SM843,SM843,DB 202 DBX 104.2,Error
+SM844,SM844,DB 202 DBX 104.3,Error
+SM845,SM845,DB 202 DBX 104.4,Error
+SM846,SM846,DB 202 DBX 104.5,Error
+SM847,SM847,DB 202 DBX 104.6,Error
+SM848,SM848,DB 202 DBX 104.7,Error
+SM849,SM849,DB 202 DBX 107.0,Error
+SM850,SM850,DB 202 DBX 107.1,Error
+SM851,SM851,DB 202 DBX 107.2,Error
+SM852,SM852,DB 202 DBX 107.3,Error
+SM853,SM853,DB 202 DBX 107.4,Error
+SM854,SM854,DB 202 DBX 107.5,Error
+SM855,SM855,DB 202 DBX 107.6,Error
+SM856,SM856,DB 202 DBX 107.7,Error
+SM857,SM857,DB 202 DBX 106.0,Error
+SM858,SM858,DB 202 DBX 106.1,Error
+SM859,SM859,DB 202 DBX 106.2,Error
+SM860,SM860,DB 202 DBX 106.3,Error
+SM861,SM861,DB 202 DBX 106.4,Error
+SM862,SM862,DB 202 DBX 106.5,Error
+SM863,SM863,DB 202 DBX 106.6,Error
+SM864,SM864,DB 202 DBX 106.7,Error
+SM865,SM865,DB 202 DBX 109.0,Error
+SM866,SM866,DB 202 DBX 109.1,Error
+SM867,SM867,DB 202 DBX 109.2,Error
+SM868,SM868,DB 202 DBX 109.3,Error
+SM869,SM869,DB 202 DBX 109.4,Error
+SM870,SM870,DB 202 DBX 109.5,Error
+SM871,SM871,DB 202 DBX 109.6,Error
+SM872,SM872,DB 202 DBX 109.7,Error
+SM873,SM873,DB 202 DBX 108.0,Error
+SM874,SM874,DB 202 DBX 108.1,Error
+SM875,SM875,DB 202 DBX 108.2,Error
+SM876,SM876,DB 202 DBX 108.3,Error
+SM877,SM877,DB 202 DBX 108.4,Error
+SM878,SM878,DB 202 DBX 108.5,Error
+SM879,SM879,DB 202 DBX 108.6,Error
+SM880,SM880,DB 202 DBX 108.7,Error
+SM881,SM881,DB 202 DBX 111.0,Error
+SM882,SM882,DB 202 DBX 111.1,Error
+SM883,SM883,DB 202 DBX 111.2,Error
+SM884,SM884,DB 202 DBX 111.3,Error
+SM885,SM885,DB 202 DBX 111.4,Error
+SM886,SM886,DB 202 DBX 111.5,Error
+SM887,SM887,DB 202 DBX 111.6,Error
+SM888,SM888,DB 202 DBX 111.7,Error
+SM889,SM889,DB 202 DBX 110.0,Error
+SM890,SM890,DB 202 DBX 110.1,Error
+SM891,SM891,DB 202 DBX 110.2,Error
+SM892,SM892,DB 202 DBX 110.3,Error
+SM893,SM893,DB 202 DBX 110.4,Error
+SM894,SM894,DB 202 DBX 110.5,Error
+SM895,SM895,DB 202 DBX 110.6,Error
+SM896,SM896,DB 202 DBX 110.7,Error
+SM897,SM897,DB 202 DBX 113.0,Error
+SM898,SM898,DB 202 DBX 113.1,Error
+SM899,SM899,DB 202 DBX 113.2,Error
+SM900,SM900,DB 202 DBX 113.3,Error
+SM901,SM901,DB 202 DBX 113.4,Error
+SM902,SM902,DB 202 DBX 113.5,Error
+SM903,SM903,DB 202 DBX 113.6,Error
+SM904,SM904,DB 202 DBX 113.7,Error
+SM905,SM905,DB 202 DBX 112.0,Error
+SM906,SM906,DB 202 DBX 112.1,Error
+SM907,SM907,DB 202 DBX 112.2,Error
+SM908,SM908,DB 202 DBX 112.3,Error
+SM909,SM909,DB 202 DBX 112.4,Error
+SM910,SM910,DB 202 DBX 112.5,Error
+SM911,SM911,DB 202 DBX 112.6,Error
+SM912,SM912,DB 202 DBX 112.7,Error
+SM913,SM913,DB 202 DBX 115.0,Error
+SM914,SM914,DB 202 DBX 115.1,Error
+SM915,SM915,DB 202 DBX 115.2,Error
+SM916,SM916,DB 202 DBX 115.3,Error
+SM917,SM917,DB 202 DBX 115.4,Error
+SM918,SM918,DB 202 DBX 115.5,Error
+SM919,SM919,DB 202 DBX 115.6,Error
+SM920,SM920,DB 202 DBX 115.7,Error
+SM921,SM921,DB 202 DBX 114.0,Error
+SM922,SM922,DB 202 DBX 114.1,Error
+SM923,SM923,DB 202 DBX 114.2,Error
+SM924,SM924,DB 202 DBX 114.3,Error
+SM925,SM925,DB 202 DBX 114.4,Error
+SM926,SM926,DB 202 DBX 114.5,Error
+SM927,SM927,DB 202 DBX 114.6,Error
+SM928,SM928,DB 202 DBX 114.7,Error
+SM929,SM929,DB 202 DBX 117.0,Error
+SM930,SM930,DB 202 DBX 117.1,Error
+SM931,SM931,DB 202 DBX 117.2,Error
+SM932,SM932,DB 202 DBX 117.3,Error
+SM933,SM933,DB 202 DBX 117.4,Error
+SM934,SM934,DB 202 DBX 117.5,Error
+SM935,SM935,DB 202 DBX 117.6,Error
+SM936,SM936,DB 202 DBX 117.7,Error
+SM937,SM937,DB 202 DBX 116.0,Error
+SM938,SM938,DB 202 DBX 116.1,Error
+SM939,SM939,DB 202 DBX 116.2,Error
+SM940,SM940,DB 202 DBX 116.3,Error
+SM941,SM941,DB 202 DBX 116.4,Error
+SM942,SM942,DB 202 DBX 116.5,Error
+SM943,SM943,DB 202 DBX 116.6,Error
+SM944,SM944,DB 202 DBX 116.7,Error
+SM945,SM945,DB 202 DBX 119.0,Error
+SM946,SM946,DB 202 DBX 119.1,Error
+SM947,SM947,DB 202 DBX 119.2,Error
+SM948,SM948,DB 202 DBX 119.3,Error
+SM949,SM949,DB 202 DBX 119.4,Error
+SM950,SM950,DB 202 DBX 119.5,Error
+SM951,SM951,DB 202 DBX 119.6,Error
+SM952,SM952,DB 202 DBX 119.7,Error
+SM953,SM953,DB 202 DBX 118.0,Error
+SM954,SM954,DB 202 DBX 118.1,Error
+SM955,SM955,DB 202 DBX 118.2,Error
+SM956,SM956,DB 202 DBX 118.3,Error
+SM957,SM957,DB 202 DBX 118.4,Error
+SM958,SM958,DB 202 DBX 118.5,Error
+SM959,SM959,DB 202 DBX 118.6,Error
+SM960,SM960,DB 202 DBX 118.7,Error
+SM961,SM961,DB 202 DBX 121.0,Error
+SM962,SM962,DB 202 DBX 121.1,Error
+SM963,SM963,DB 202 DBX 121.2,Error
+SM964,SM964,DB 202 DBX 121.3,Error
+SM965,SM965,DB 202 DBX 121.4,Error
+SM966,SM966,DB 202 DBX 121.5,Error
+SM967,SM967,DB 202 DBX 121.6,Error
+SM968,SM968,DB 202 DBX 121.7,Error
+SM969,SM969,DB 202 DBX 120.0,Error
+SM970,SM970,DB 202 DBX 120.1,Error
+SM971,SM971,DB 202 DBX 120.2,Error
+SM972,SM972,DB 202 DBX 120.3,Error
+SM973,SM973,DB 202 DBX 120.4,Error
+SM974,SM974,DB 202 DBX 120.5,Error
+SM975,SM975,DB 202 DBX 120.6,Error
+SM976,SM976,DB 202 DBX 120.7,Error
+SM977,SM977,DB 202 DBX 123.0,Error
+SM978,SM978,DB 202 DBX 123.1,Error
+SM979,SM979,DB 202 DBX 123.2,Error
+SM980,SM980,DB 202 DBX 123.3,Error
+SM981,SM981,DB 202 DBX 123.4,Error
+SM982,SM982,DB 202 DBX 123.5,Error
+SM983,SM983,DB 202 DBX 123.6,Error
+SM984,SM984,DB 202 DBX 123.7,Error
+SM985,SM985,DB 202 DBX 122.0,Error
+SM986,SM986,DB 202 DBX 122.1,Error
+SM987,SM987,DB 202 DBX 122.2,Error
+SM988,SM988,DB 202 DBX 122.3,Error
+SM989,SM989,DB 202 DBX 122.4,Error
+SM990,SM990,DB 202 DBX 122.5,Error
+SM991,SM991,DB 202 DBX 122.6,Error
+SM992,SM992,DB 202 DBX 122.7,Error
+SM993,SM993,DB 202 DBX 125.0,Error
+SM994,SM994,DB 202 DBX 125.1,Error
+SM995,SM995,DB 202 DBX 125.2,Error
+SM996,SM996,DB 202 DBX 125.3,Error
+SM997,SM997,DB 202 DBX 125.4,Error
+SM998,SM998,DB 202 DBX 125.5,Error
+SM999,SM999,DB 202 DBX 125.6,Error
+SM1000,SM1000,DB 202 DBX 125.7,Error
+SM1001,SM1001,DB 202 DBX 124.0,Error
+SM1002,SM1002,DB 202 DBX 124.1,Error
+SM1003,SM1003,DB 202 DBX 124.2,Error
+SM1004,SM1004,DB 202 DBX 124.3,Error
+SM1005,SM1005,DB 202 DBX 124.4,Error
+SM1006,SM1006,DB 202 DBX 124.5,Error
+SM1007,SM1007,DB 202 DBX 124.6,Error
+SM1008,SM1008,DB 202 DBX 124.7,Error
+SM1009,SM1009,DB 202 DBX 127.0,Error
+SM1010,SM1010,DB 202 DBX 127.1,Error
+SM1011,SM1011,DB 202 DBX 127.2,Error
+SM1012,SM1012,DB 202 DBX 127.3,Error
+SM1013,SM1013,DB 202 DBX 127.4,Error
+SM1014,SM1014,DB 202 DBX 127.5,Error
+SM1015,SM1015,DB 202 DBX 127.6,Error
+SM1016,SM1016,DB 202 DBX 127.7,Error
+SM1017,SM1017,DB 202 DBX 126.0,Error
+SM1018,SM1018,DB 202 DBX 126.1,Error
+SM1019,SM1019,DB 202 DBX 126.2,Error
+SM1020,SM1020,DB 202 DBX 126.3,Error
+SM1021,SM1021,DB 202 DBX 126.4,Error
+SM1022,SM1022,DB 202 DBX 126.5,Error
+SM1023,SM1023,DB 202 DBX 126.6,Error
+SM1024,SM1024,DB 202 DBX 126.7,Error
