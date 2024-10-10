@@ -1,12 +1,13 @@
 #include "alarmsconfig.h"
 
-AlarmsConfig::AlarmsConfig() {
+AlarmsConfig::AlarmsConfig(QObject *parent)
+    : QObject{parent}
+{
     QFile file (":/Alarms.csv");
 
     if (!file.open(QIODevice::ReadOnly)) {
         qDebug() << file.errorString();
     } else {
-        qDebug() << "----------------";
         while (!file.atEnd()) {
             QByteArray line = file.readLine();
             QList<QByteArray> lineSplitted = line.split(',');
@@ -38,6 +39,15 @@ AlarmsConfig::AlarmsConfig() {
                         addrByte = QString::fromUtf8(byteSplited[0]).toInt();
                         addrBit = QString::fromUtf8(byteSplited[1]).toInt();
 
+                        AlarmConfigItem *alarmConfigItem = new AlarmConfigItem(this);
+                        alarmConfigItem->setMessageDE(messageDE);
+                        alarmConfigItem->setMessageHU(messageHU);
+                        alarmConfigItem->setAddrByte(addrByte);
+                        alarmConfigItem->setAddrBit(addrBit);
+                        alarmConfigItem->setIsTypeError(isTypeError);
+
+                        alarmConfigList.append(alarmConfigItem);
+
                         qDebug() << messageHU << " Byte=" << addrByte << " Bit=" << addrBit << " Error=" << isTypeError;
                     }
                 }
@@ -45,4 +55,9 @@ AlarmsConfig::AlarmsConfig() {
         }
     }
 
+}
+
+QList<AlarmConfigItem *> AlarmsConfig::getAlarmConfigList() const
+{
+    return alarmConfigList;
 }

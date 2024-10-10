@@ -7,15 +7,13 @@
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
+    QQmlApplicationEngine engine;
 
-    PLC_Siemens *plcSiemens;
-    plcSiemens = new PLC_Siemens("10.0.5.5");
+    PLC_Siemens *plcSiemens = new PLC_Siemens("10.0.5.5");
     // plcSiemens->start();
 
-    AlarmsConfig *alarmConfig;
-    alarmConfig = new AlarmsConfig();
+    AlarmsConfig *alarmsConfig = new AlarmsConfig(&app);
 
-    QQmlApplicationEngine engine;
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,

@@ -15,6 +15,7 @@ qt_add_executable(appSlaughteringAlarmPLC
     snap7.h snap7.cpp
     plc_siemens.h plc_siemens.cpp
     alarmsconfig.h alarmsconfig.cpp
+    alarmconfigitem.h alarmconfigitem.cpp
 )
 
 qt_add_qml_module(appSlaughteringAlarmPLC
