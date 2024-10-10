@@ -3,7 +3,7 @@ Pufferbatterie der SPS wird leer gemeldet durch SV (Programmverlust),PLC elem t�
 Lampentest eingeschaltet (Abwahl durch erneute Betätigung),Lámpateszt bekapcsolva,DB 202 DBX 1.2,Warnings
 Handbetrieb Zielsteuerung angewählt (Weichen schwenken mit Hand-vor-Ort),Célkiválasztás kézi vezérléssel (Weichen schwenken mit Hand-vor-Ort),DB 202 DBX 1.3,Warnings
 Testbetrieb für Weichenkontrolle angewählt (Schwenkpunkte Weichen einstellen),Tesztüzem a váltóvezérléshez kiválasztva (Schwenkpunkte Weichen einstellen),DB 202 DBX 1.4,Warnings
-"Servicebetrieb für Weichen angewählt (KK9 Einschaltung verriegelt, Weichen direkt)","Szervízmód a váltóknál kiválasztva (KK9 bekapcsolás tíltva, Váltó direkt üzem)",DB 202 DBX 1.5,Warnings
+Servicebetrieb für Weichen angewählt (KK9 Einschaltung verriegelt Weichen direkt),Szervízmód a váltóknál kiválasztva (KK9 bekapcsolás tíltva Váltó direkt üzem),DB 202 DBX 1.5,Warnings
 Notauslagerung aktiviert (keine Annahme von Aufträgen!),Sürgõsségi lapozás engedélyezett (nem fogad megrendeléseket!),DB 202 DBX 1.6,Warnings
 BM008,BM008,DB 202 DBX 1.7,Warnings
 Lebensbitüberwachung Kommunikation zur SPS BANSS angesprochen,Kommunikáció a BANSS plc-vel nem mûkodik,DB 202 DBX 0.0,Warnings
@@ -64,7 +64,7 @@ BM063,BM063,DB 202 DBX 6.6,Warnings
 BM064,BM064,DB 202 DBX 6.7,Warnings
 Bandstopp durch Waage im Wiegef.KK2 angefordert (KK2 aus-/einschalten),A mérleg megállította a KK2 konvejort (KK2 Ki-Bekapcsolni),DB 202 DBX 9.0,Warnings
 Registrierende für Wiegevorgang der Waage in KK2 nicht abgeschlossen,A mérleg nem tudta megmérni a súlyt a KK2-nél,DB 202 DBX 9.1,Warnings
-Bereitmeldung der Waage im Wiegef.KK2 fehlt für nächsten Wiegevorgang,"KK2-nél a mérleg nincs készenlétben, következõ mérés nem lehetséges",DB 202 DBX 9.2,Warnings
+Bereitmeldung der Waage im Wiegef.KK2 fehlt für nächsten Wiegevorgang,KK2-nél a mérleg nincs készenlétben következõ mérés nem lehetséges,DB 202 DBX 9.2,Warnings
 Störung Waage im Wiegef.KK2 (Waage aus-/einschalten),Hiba a mérlegnék KK2 (Mérleg Ki-/Bekapcsolni),DB 202 DBX 9.3,Warnings
 Leertaktanforderung durch Waage im Wiegef.KK2,Üres ciklus a KK2-es mérlegnél,DB 202 DBX 9.4,Warnings
 Registrierung der Waage im Wiegef.KK2 ist aktiv,A mérés aktív a mérlegnél KK2-nél,DB 202 DBX 9.5,Warnings
@@ -72,7 +72,7 @@ Geschwindigkeitsverletzung durch Waage im Wiegef.KK2 erkannt,Sebessségeltérés
 SM072,SM072,DB 202 DBX 9.7,Warnings
 Bandstopp durch Waage im Abzugsf.KK52 angefordert (KK52 aus-/einschalten),A mérleg megállította a KK52 konvejort (KK52 Ki-Bekapcsolni),DB 202 DBX 8.0,Warnings
 Registrierende für Wiegevorgang der Waage in KK52 nicht abgeschlossen,A mérleg nem tudta megmérni a súlyt a KK52-nél,DB 202 DBX 8.1,Warnings
-Bereitmeldung der Waage im Abzugsf.KK52 fehlt für nächsten Wiegevorgang,"KK52-nél a mérleg nincs készenlétben, következõ mérés nem lehetséges",DB 202 DBX 8.2,Warnings
+Bereitmeldung der Waage im Abzugsf.KK52 fehlt für nächsten Wiegevorgang,KK52-nél a mérleg nincs készenlétben következõ mérés nem lehetséges,DB 202 DBX 8.2,Warnings
 Störung Waage im Abzugsf.KK52 (Waage aus-/einschalten),Hiba a mérlegnék KK52 (Mérleg Ki-/Bekapcsolni),DB 202 DBX 8.3,Warnings
 Leertaktanforderung durch Waage im Abzugsf.KK52,Üres ciklus a KK52-es mérlegnél,DB 202 DBX 8.4,Warnings
 Registrierung der Waage im Abzugsf.KK52 ist aktiv,A mérés aktív a mérlegnél KK52-nél,DB 202 DBX 8.5,Warnings
@@ -153,7 +153,7 @@ Error Haken kommt vor Klappstück im KK52 und dieses ist nicht in der richtigen 
 Error Haken kommt vor Propeller und dieser ist nicht in Grundstellung,Kampó érkezett az átfordító motorhoz de az nincs alaphelyzetben,DB 202 DBX 18.0,Warnings
 Error Haken im Rückstrang KK52 fehlt,A kampóátfordítás nem sikerült mert a kampó nem érkezett meg a KK52 konvejor ,DB 202 DBX 18.1,Warnings
 Endlagenüberwachung Schiebevorrichtung Ende KK52 nach Versand,Végállás kapcsoló hiba az áttoló munkahengernél a KK52-konvejoron kitárolásnál a húsraktárba (munkahenger reed relé),DB 202 DBX 18.2,Warnings
-Error haken kommt ans Ende von KK52 nach Versand und KK51 läuft nicht,"A KK52 végén kampó érkezett, de a KK51 nem üzemel",DB 202 DBX 18.3,Warnings
+Error haken kommt ans Ende von KK52 nach Versand und KK51 läuft nicht,A KK52 végén kampó érkezett de a KK51 nem üzemel,DB 202 DBX 18.3,Warnings
 Staumeldung Auslauf Abzugsförderer KK52 nach KK51 Versand aktiv,Torlódásfelügyelet KK52 - KK51 aktiv,DB 202 DBX 18.4,Warnings
 BM158,BM158,DB 202 DBX 18.5,Warnings
 BM159,BM159,DB 202 DBX 18.6,Warnings

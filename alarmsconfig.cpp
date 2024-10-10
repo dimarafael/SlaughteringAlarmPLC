@@ -10,20 +10,23 @@ AlarmsConfig::AlarmsConfig() {
         while (!file.atEnd()) {
             QByteArray line = file.readLine();
             QList<QByteArray> lineSplitted = line.split(',');
-            QByteArray messageDE;
-            QByteArray messageHU;
-            QByteArray alarmType;
+            QString messageDE;
+            QString messageHU;
+            QString alarmType;
             QList<QByteArray> addressSplited;
             QList<QByteArray> byteSplited;
             int addrByte;
             int addrBit;
+            bool isTypeError;
 
             if(lineSplitted.size() < 4){
                 qDebug() << "Alarms.csv parse error : can not split string: " << line;
             } else{
-                messageDE = lineSplitted[0];
-                messageHU = lineSplitted[1];
-                alarmType = lineSplitted[3];
+                messageDE = QString::fromUtf8(lineSplitted[0]);
+                messageHU = QString::fromUtf8(lineSplitted[1]);
+                alarmType = QString::fromUtf8(lineSplitted[3]);
+                isTypeError = alarmType.startsWith("Err");
+
                 addressSplited = lineSplitted[2].split(' ');
                 if(addressSplited.size() < 4){
                     qDebug() << "Alarms.csv parse error : can not split address: " << lineSplitted[2];
@@ -35,12 +38,10 @@ AlarmsConfig::AlarmsConfig() {
                         addrByte = QString::fromUtf8(byteSplited[0]).toInt();
                         addrBit = QString::fromUtf8(byteSplited[1]).toInt();
 
-                        // qDebug() << QString::fromUtf8(messageHU) << " Byte=" << addrByte << " Bit=" << addrBit;
+                        qDebug() << messageHU << " Byte=" << addrByte << " Bit=" << addrBit << " Error=" << isTypeError;
                     }
                 }
             }
-            // wordList.append(line.split(',').first());
-            // qDebug() << line.split(',')[1] << " | " << line.split(',')[2] << ": byte=" << line.split(',')[2].split(' ')[3].split('.')[0] << " bit=" << line.split(',')[2].split(' ')[3].split('.')[1];
         }
     }
 
