@@ -21,8 +21,13 @@ qt_add_executable(appSlaughteringAlarmPLC
 qt_add_qml_module(appSlaughteringAlarmPLC
     URI SlaughteringAlarmPLC
     VERSION 1.0
+    RESOURCES
+        img/logo.png
     QML_FILES
         Main.qml
+        SOURCES alarmlistmodel.h alarmlistmodel.cpp
+        SOURCES alarmhistoryitem.h alarmhistoryitem.cpp
+        SOURCES alarmhistorylistmodel.h alarmhistorylistmodel.cpp
 )
 
 qt_add_resources(appSlaughteringAlarmPLC "alarms_config"

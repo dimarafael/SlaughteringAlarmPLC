@@ -4,10 +4,48 @@ PLC_Siemens::PLC_Siemens(QString ipAddress)
 {
     MyS7Client = new TS7Client();
     this->ipAddress = ipAddress;
-    connect();
+    connectToPLC();
 }
 
-bool PLC_Siemens::connect()
+PLC_Siemens::~PLC_Siemens()
+{
+    delete MyS7Client;
+}
+
+void PLC_Siemens::run()
+{
+    m_timer = new QTimer(this);
+    m_timer->setInterval(1000);
+    connect(m_timer, &QTimer::timeout, this, &PLC_Siemens::readData);
+    m_timer->start();
+}
+
+void PLC_Siemens::readData()
+{
+    if (MyS7Client->Connected())
+    {
+        int res;
+        res = MyS7Client->DBRead(202, 0, DATA_LENGTH, &DB_Buffer);
+        if (res!=0)
+        {
+            qDebug()<< "Error read from DB:" << "1 "<<QString::number(res);
+        }
+        else{
+            dataToSend.clear();
+            dataToSend.squeeze();
+
+            for(int i = 0; i < DATA_LENGTH; i++){
+                dataToSend.append( DB_Buffer[i] );
+            }
+            emit dataReady(dataToSend);
+        }
+    }
+    else {
+        connectToPLC();
+    }
+}
+
+bool PLC_Siemens::connectToPLC()
 {
     if ( !MyS7Client->Connected() )
     {
@@ -15,21 +53,6 @@ bool PLC_Siemens::connect()
     }
     else {
         return MyS7Client->Connected();
-    }
-}
-
-void PLC_Siemens::ReadCycle()
-{
-    int res;
-    res = MyS7Client->DBRead(202, 0, 127, &DB_Buffer);
-    if (res!=0)
-    {
-        qDebug()<< "Error read from DB:" << "1 "<<QString::number(res);
-    }
-    //qDebug()<< "Read from DB:" << "1 "<<QString::number(res);
-    else{
-        qDebug()<<"Value 0 ="<<DB_Buffer[0];
-        qDebug()<<"Value 1 ="<<DB_Buffer[1];
     }
 }
 
@@ -79,20 +102,4 @@ double PLC_Siemens::getReal(byte *Buffer, int Pos)
     return *(pfloat(&dw));
 }
 
-void PLC_Siemens::run()
-{
-    while(true)
-    {
 
-        if (MyS7Client->Connected())
-        {
-            QMutexLocker locker(&mutex);
-            ReadCycle();
-        }
-        else {
-            connect();
-        }
-        // this->sleep(ulong(0.1*10e-6));// 100000us=100ms
-        this->sleep(1);
-    }
-}

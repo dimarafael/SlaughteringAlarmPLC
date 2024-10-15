@@ -48,7 +48,7 @@ AlarmsConfig::AlarmsConfig(QObject *parent)
 
                         alarmConfigList.append(alarmConfigItem);
 
-                        qDebug() << messageHU << " Byte=" << addrByte << " Bit=" << addrBit << " Error=" << isTypeError;
+                        // qDebug() << messageHU << " Byte=" << addrByte << " Bit=" << addrBit << " Error=" << isTypeError;
                     }
                 }
             }
@@ -61,3 +61,34 @@ QList<AlarmConfigItem *> AlarmsConfig::getAlarmConfigList() const
 {
     return alarmConfigList;
 }
+
+AlarmConfigItem *AlarmsConfig::getAlarmConfigItem(int id)
+{
+    if (id >= 0 and id < alarmConfigList.size()){
+        return alarmConfigList[id];
+    } else return nullptr;
+}
+
+int AlarmsConfig::findAlarmItemId(int byte, int bit)
+{
+    int i = -1;
+    for(i = 0; i < alarmConfigList.size(); i++){
+        if (alarmConfigList[i]->getAddrByte() == byte and alarmConfigList[i]->getAddrBit() == bit){
+            break;
+        }
+    }
+    return i;
+}
+
+AlarmConfigItem *AlarmsConfig::getAlarmConfigItem(int byte, int bit)
+{
+    AlarmConfigItem *item = nullptr;
+    for(int i = 0; i < alarmConfigList.size(); i++){
+        if (alarmConfigList[i]->getAddrByte() == byte and alarmConfigList[i]->getAddrBit() == bit){
+            item = alarmConfigList[i];
+            break;
+        }
+    }
+    return item;
+}
+

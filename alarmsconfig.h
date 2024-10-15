@@ -14,6 +14,9 @@ public:
     explicit AlarmsConfig(QObject *parent = nullptr);
 
     QList<AlarmConfigItem *> getAlarmConfigList() const;
+    AlarmConfigItem* getAlarmConfigItem(int id);
+    int findAlarmItemId(int byte, int bit);
+    AlarmConfigItem* getAlarmConfigItem(int byte, int bit);
 
 private:
     QList<AlarmConfigItem*> alarmConfigList;

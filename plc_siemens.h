@@ -1,26 +1,25 @@
 #ifndef PLC_SIEMENS_H
 #define PLC_SIEMENS_H
 
+#include <QObject>
 #include "snap7.h"
-#include <QThread>
 #include <QDebug>
 #include <QString>
-#include <QMutex>
+#include <QTimer>
+#include <QVector>
 
-class PLC_Siemens : public QThread
+#define DATA_LENGTH 127
+
+class PLC_Siemens : public QObject
 {
 
-
+    Q_OBJECT
     typedef float *pfloat;
 
 public:
     enum dataType {eBit, eByte, eInt, eDInt, eWord, eDowrd, eReal};
     PLC_Siemens(QString ipAddress);
-    //
-    bool connect();
-    void ReadCycle();
-    //
-    QMutex mutex;
+    ~PLC_Siemens();
 
     // Helper functions
     uint getUInt16(int Pos);
@@ -37,16 +36,25 @@ public:
 
     double getReal(int Pos);
     double getReal(byte* Buffer, int Pos);
-    //
-    QString ipAddress;
+
+signals:
+    void dataReady(QVector<quint8>);
+
+public slots:
+    void run();
+
+private slots:
+    void readData();
+
+private:
+    bool connectToPLC();
 
     TS7Client *MyS7Client;
-    byte DB_Buffer[200];
-
-protected:
-    void run();
-private:
+    byte DB_Buffer[DATA_LENGTH] = {0};
+    QString ipAddress;
     int old_value;
+    QTimer *m_timer;
+    QVector<quint8> dataToSend;
 };
 
 #endif // PLC_SIEMENS_H
