@@ -41,7 +41,7 @@ QHash<int, QByteArray> AlarmHistoryListModel::roleNames() const
 
 void AlarmHistoryListModel::processAlarms(QVector<quint8> data)
 {
-    qDebug() << "processHistoryAlarms";
+    // qDebug() << "processHistoryAlarms";
 
     // First initialisation of oldData
     if(oldData.size() != data.size()){
@@ -84,5 +84,5 @@ void AlarmHistoryListModel::processAlarms(QVector<quint8> data)
 
     oldData = data;
     endResetModel();
-    qDebug()<< "HistorySize " << m_alarmList.size();
+    // qDebug()<< "HistorySize " << m_alarmList.size();
 }

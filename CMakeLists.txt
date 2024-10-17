@@ -28,6 +28,7 @@ qt_add_qml_module(appSlaughteringAlarmPLC
         SOURCES alarmlistmodel.h alarmlistmodel.cpp
         SOURCES alarmhistoryitem.h alarmhistoryitem.cpp
         SOURCES alarmhistorylistmodel.h alarmhistorylistmodel.cpp
+        SOURCES alarmactiveitem.h alarmactiveitem.cpp
 )
 
 qt_add_resources(appSlaughteringAlarmPLC "alarms_config"

@@ -28,6 +28,8 @@ void PLC_Siemens::readData()
         res = MyS7Client->DBRead(202, 0, DATA_LENGTH, &DB_Buffer);
         if (res!=0)
         {
+            emit isPlcOnline(false);
+            reConnectToPLC();
             qDebug()<< "Error read from DB:" << "1 "<<QString::number(res);
         }
         else{
@@ -37,10 +39,12 @@ void PLC_Siemens::readData()
             for(int i = 0; i < DATA_LENGTH; i++){
                 dataToSend.append( DB_Buffer[i] );
             }
+            emit isPlcOnline(true);
             emit dataReady(dataToSend);
         }
     }
     else {
+        emit isPlcOnline(false);
         connectToPLC();
     }
 }
@@ -54,6 +58,12 @@ bool PLC_Siemens::connectToPLC()
     else {
         return MyS7Client->Connected();
     }
+}
+
+bool PLC_Siemens::reConnectToPLC()
+{
+    MyS7Client->Disconnect();
+    return connectToPLC();
 }
 
 uint PLC_Siemens::getUInt16(int Pos)

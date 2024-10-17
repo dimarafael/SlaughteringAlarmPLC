@@ -62,7 +62,6 @@ Window {
                     top: parent.top
                     bottom: parent.bottom
                     left: parent.left
-                    right: lineVerticalMachine1.left
                     margins: window.defMargin
                 }
                 fillMode: Image.PreserveAspectFit
@@ -70,13 +69,41 @@ Window {
                 source: "img/logo.png"
             }
 
+            Item{
+                id: itemClock
+                anchors.right: parent.right
+                anchors.top: parent.top
+                anchors.bottom: parent.bottom
+                width: logo.width * 1.1
+
+                Text{
+                    id: clockText
+                    anchors.fill: parent
+                    font.pixelSize: height / 2
+                    font.bold: true
+                    verticalAlignment: Text.AlignVCenter
+                    horizontalAlignment: Text.AlignLeft
+                    color: "white"
+                }
+
+                Timer{
+                    interval: 1000; running: true; repeat: true
+                    onTriggered: {
+                        var date = new Date();
+                        clockText.text = date.toLocaleTimeString();
+                    }
+                }
+
+            }
+
             Text{
                 id: textTitle
                 anchors.top: parent.top
                 anchors.bottom: parent.bottom
                 anchors.left: logo.right
-                anchors.right: parent.right
+                anchors.right: itemClock.left
                 font.pixelSize: height / 2
+                font.bold: true
                 verticalAlignment: Text.AlignVCenter
                 horizontalAlignment: Text.AlignHCenter
                 color: "white"
@@ -121,13 +148,30 @@ Window {
                         required property string alarmMessageHU;
                         required property string alarmMessageDE;
                         required property bool alarmTypeError;
-                        font.pixelSize: window.height / 30
+                        required property date alarmTimestamp;
+                        font.pixelSize: window.height / 40
                         color: delegate.alarmTypeError? "darkred" : "darkblue"
-                        text: delegate.alarmMessageHU + " | " + delegate.alarmMessageDE
+                        text: delegate.alarmTimestamp.toLocaleString(Qt.locale("hu_HU"), Locale.ShortFormat) + " | " + delegate.alarmMessageHU + " | " + delegate.alarmMessageDE
                     }
                 }
             }
 
+            Rectangle{
+                id: rectangleOffline
+                anchors.centerIn: parent
+                height: parent.height / 2
+                width: parent.width / 2
+                color: "red"
+                radius: window.defMargin
+                visible: !AlarmListModel.plcOnline
+                Text{
+                    anchors.centerIn: parent
+                    color: "white"
+                    font.pixelSize: rectangleOffline.height / 2
+                    font.bold: true
+                    text: "PLC OFFLINE"
+                }
+            }
 
         }
         DropShadow {

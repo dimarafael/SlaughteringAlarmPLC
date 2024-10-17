@@ -4,17 +4,19 @@
 #include <QAbstractListModel>
 #include <QObject>
 #include <QList>
-#include "alarmconfigitem.h"
 #include "alarmsconfig.h"
+#include "alarmactiveitem.h"
 
 class AlarmListModel : public QAbstractListModel
 {
     Q_OBJECT
+    Q_PROPERTY(bool plcOnline READ plcOnline WRITE setPlcOnline NOTIFY plcOnlineChanged FINAL)
 public:
     enum Role {
         AlarmMessageDE = Qt::UserRole + 1,
         AlarmMessageHU = Qt::UserRole + 2,
-        AlarmTypeError = Qt::UserRole + 3
+        AlarmTypeError = Qt::UserRole + 3,
+        AlarmTimestamp = Qt::UserRole + 4
     };
     explicit AlarmListModel(QObject *parent = nullptr, AlarmsConfig *almCfg = nullptr);
 
@@ -24,13 +26,21 @@ public:
     virtual QVariant data(const QModelIndex &index, int role) const override;
     virtual QHash<int, QByteArray> roleNames() const override;
 
+    bool plcOnline() const;
+    void setPlcOnline(bool newPlcOnline);
+
 public slots:
     void processAlarms(QVector<quint8> data);
+    void setOnlineStatus(bool isOnline);
+
+signals:
+    void plcOnlineChanged();
 
 private:
     AlarmsConfig *alarmsConfig;
-    QList<AlarmConfigItem*> m_alarmList;
+    QList<AlarmActiveItem*> m_alarmList;
     QVector<quint8> oldData;
+    bool m_plcOnline;
 };
 
 #endif // ALARMLISTMODEL_H

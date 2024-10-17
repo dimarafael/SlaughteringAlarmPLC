@@ -39,6 +39,7 @@ public:
 
 signals:
     void dataReady(QVector<quint8>);
+    void isPlcOnline(bool isOnline);
 
 public slots:
     void run();
@@ -48,6 +49,7 @@ private slots:
 
 private:
     bool connectToPLC();
+    bool reConnectToPLC();
 
     TS7Client *MyS7Client;
     byte DB_Buffer[DATA_LENGTH] = {0};

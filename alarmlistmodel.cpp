@@ -14,14 +14,16 @@ int AlarmListModel::rowCount(const QModelIndex &parent) const
 QVariant AlarmListModel::data(const QModelIndex &index, int role) const
 {
     if (index.isValid() && index.row() >= 0 && index.row() < m_alarmList.size()){
-        AlarmConfigItem *alarmConfigItem = m_alarmList[index.row()];
+        AlarmActiveItem *alarmActiveItem = m_alarmList[index.row()];
         switch ((Role)role) {
         case AlarmMessageDE:
-            return alarmConfigItem->getMessageDE();
+            return alarmActiveItem->getMessageDE();
         case AlarmMessageHU:
-            return alarmConfigItem->getMessageHU();
+            return alarmActiveItem->getMessageHU();
         case AlarmTypeError:
-            return alarmConfigItem->getIsTypeError();
+            return alarmActiveItem->getIsTypeError();
+        case AlarmTimestamp:
+            return alarmActiveItem->getTimeStamp();
         }
     }
     return {};
@@ -33,12 +35,13 @@ QHash<int, QByteArray> AlarmListModel::roleNames() const
     names[AlarmMessageDE] = "alarmMessageDE";
     names[AlarmMessageHU] = "alarmMessageHU";
     names[AlarmTypeError] = "alarmTypeError";
+    names[AlarmTimestamp] = "alarmTimestamp";
     return names;
 }
 
 void AlarmListModel::processAlarms(QVector<quint8> data)
 {
-    qDebug() << "processAlarms";
+    // qDebug() << "processAlarms";
 
     // First initialisation of oldData
     if(oldData.size() != data.size()){
@@ -59,7 +62,14 @@ void AlarmListModel::processAlarms(QVector<quint8> data)
                 if(alarmBit and !oldAlarmBit){
                     AlarmConfigItem *item = alarmsConfig->getAlarmConfigItem(i,bitNumber);
                     if (item != nullptr){
-                        m_alarmList.append(item);
+                        AlarmActiveItem *activeItem = new AlarmActiveItem(this);
+                        activeItem->setMessageHU(item->getMessageHU());
+                        activeItem->setMessageDE(item->getMessageDE());
+                        activeItem->setAddrByte(item->getAddrByte());
+                        activeItem->setAddrBit(item->getAddrBit());
+                        activeItem->setIsTypeError(item->getIsTypeError());
+                        activeItem->setTimeStamp(QDateTime::currentDateTime());
+                        m_alarmList.append(activeItem);
                     }
                 }
 
@@ -75,8 +85,27 @@ void AlarmListModel::processAlarms(QVector<quint8> data)
             }
         }
     }
+
     oldData = data;
     endResetModel();
-    qDebug()<< "Size " << m_alarmList.size();
+    // qDebug()<< "Size " << m_alarmList.size();
 }
 
+void AlarmListModel::setOnlineStatus(bool isOnline)
+{
+    setPlcOnline(isOnline);
+}
+
+
+bool AlarmListModel::plcOnline() const
+{
+    return m_plcOnline;
+}
+
+void AlarmListModel::setPlcOnline(bool newPlcOnline)
+{
+    if (m_plcOnline == newPlcOnline)
+        return;
+    m_plcOnline = newPlcOnline;
+    emit plcOnlineChanged();
+}
