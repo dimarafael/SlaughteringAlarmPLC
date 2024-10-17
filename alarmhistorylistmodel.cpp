@@ -50,10 +50,9 @@ void AlarmHistoryListModel::processAlarms(QVector<quint8> data)
         }
     }
 
-    beginResetModel();
-
     for (int i = 0; i < data.size() ;i++){
         if(data[i] != oldData[i]){
+            beginResetModel();
             for(int bitNumber = 0; bitNumber < 8; bitNumber++){
                 bool alarmBit = (data[i] >> bitNumber) & 1;
                 bool oldAlarmBit = (oldData[i] >> bitNumber) & 1;
@@ -79,10 +78,10 @@ void AlarmHistoryListModel::processAlarms(QVector<quint8> data)
                 }
 
             }
+            endResetModel();
         }
     }
 
     oldData = data;
-    endResetModel();
     // qDebug()<< "HistorySize " << m_alarmList.size();
 }
