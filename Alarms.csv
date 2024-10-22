@@ -573,7 +573,7 @@ SM572,SM572,DB 202 DBX 70.3,Error
 Motorschutzschalter =WD+CC3-Q641 FU Waageförderer WKK52 ausgelöst,Hõkioldó =WD+CC3-Q641 FU WKK52 kioldott,DB 202 DBX 70.4,Error
 Thermistorauswertung FU =WD+CC3-A641 Waagef.WKK52 angesprochen,Fr.váltó thermistor felügyelet =WD+CC3-A641 WKK52,DB 202 DBX 70.5,Error
 Störung FU =WD+CC3-A641 Waageförderer WKK52 aufgetreten,Frváltó hiba =WD+CC3-A641 Waageförderer WKK52 aufgetreten,DB 202 DBX 70.6,Error
-SM576,SM576,DB 202 DBX 70.7,Error
+Stopp durch Haken auf  Waage ohne Regstart. Startsensor defekt,A csontozói felsőpályás mérleg 1. szenzora nem működik,DB 202 DBX 70.7,Error
 SM577,SM577,DB 202 DBX 73.0,Error
 SM578,SM578,DB 202 DBX 73.1,Error
 SM579,SM579,DB 202 DBX 73.2,Error
