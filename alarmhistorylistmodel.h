@@ -2,8 +2,8 @@
 #define ALARMHISTORYLISTMODEL_H
 
 #include <QAbstractListModel>
-#include <QObject>
 #include <QList>
+#include <QObject>
 #include "alarmhistoryitem.h"
 #include "alarmsconfig.h"
 
@@ -30,7 +30,7 @@ public slots:
 
 private:
     AlarmsConfig *alarmsConfig;
-    QList<AlarmHistoryItem*> m_alarmList;
+    QList<AlarmHistoryItem *> m_alarmList;
     QVector<quint8> oldData;
 };
 

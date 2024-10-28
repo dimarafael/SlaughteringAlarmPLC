@@ -13,9 +13,9 @@ int AlarmHistoryListModel::rowCount(const QModelIndex &parent) const
 
 QVariant AlarmHistoryListModel::data(const QModelIndex &index, int role) const
 {
-    if (index.isValid() && index.row() >= 0 && index.row() < m_alarmList.size()){
+    if (index.isValid() && index.row() >= 0 && index.row() < m_alarmList.size()) {
         AlarmHistoryItem *alarmHistoryItem = m_alarmList[index.row()];
-        switch ((Role)role) {
+        switch ((Role) role) {
         case AlarmMessageDE:
             return alarmHistoryItem->getMessageDE();
         case AlarmMessageHU:
@@ -44,23 +44,23 @@ void AlarmHistoryListModel::processAlarms(QVector<quint8> data)
     // qDebug() << "processHistoryAlarms";
 
     // First initialisation of oldData
-    if(oldData.size() != data.size()){
-        for (int i = 0; i < data.size() ;i++){
+    if (oldData.size() != data.size()) {
+        for (int i = 0; i < data.size(); i++) {
             oldData.append(0);
         }
     }
 
-    for (int i = 0; i < data.size() ;i++){
-        if(data[i] != oldData[i]){
+    for (int i = 0; i < data.size(); i++) {
+        if (data[i] != oldData[i]) {
             beginResetModel();
-            for(int bitNumber = 0; bitNumber < 8; bitNumber++){
+            for (int bitNumber = 0; bitNumber < 8; bitNumber++) {
                 bool alarmBit = (data[i] >> bitNumber) & 1;
                 bool oldAlarmBit = (oldData[i] >> bitNumber) & 1;
 
                 // add alarm to list
-                if(alarmBit and !oldAlarmBit){
-                    AlarmConfigItem *item = alarmsConfig->getAlarmConfigItem(i,bitNumber);
-                    if (item != nullptr){
+                if (alarmBit and !oldAlarmBit) {
+                    AlarmConfigItem *item = alarmsConfig->getAlarmConfigItem(i, bitNumber);
+                    if (item != nullptr) {
                         AlarmHistoryItem *historyItem = new AlarmHistoryItem(this);
                         historyItem->setMessageHU(item->getMessageHU());
                         historyItem->setMessageDE(item->getMessageDE());
@@ -72,11 +72,10 @@ void AlarmHistoryListModel::processAlarms(QVector<quint8> data)
                     }
                 }
                 // delete old records
-                while(m_alarmList.size() > 100){
+                while (m_alarmList.size() > 100) {
                     m_alarmList.removeLast();
                     m_alarmList.squeeze();
                 }
-
             }
             endResetModel();
         }

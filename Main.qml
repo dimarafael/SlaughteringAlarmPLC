@@ -74,8 +74,7 @@ Window {
                 anchors.right: parent.right
                 anchors.top: parent.top
                 anchors.bottom: parent.bottom
-                width: logo.width * 1.1
-
+                width: logo.width
                 Text{
                     id: clockText
                     anchors.fill: parent
@@ -90,7 +89,7 @@ Window {
                     interval: 1000; running: true; repeat: true
                     onTriggered: {
                         var date = new Date();
-                        clockText.text = date.toLocaleTimeString();
+                        clockText.text = date.toLocaleTimeString(Qt.locale("en-GB"), Locale.ShortFormat);
                     }
                 }
 

@@ -10,7 +10,6 @@ public:
     explicit AlarmActiveItem(QObject *parent = nullptr);
 
 private:
-
 };
 
 #endif // ALARMACTIVEITEM_H

@@ -35,7 +35,7 @@
 //==============================================================================
 TS7Client::TS7Client()
 {
-    Client=Cli_Create();
+    Client = Cli_Create();
 }
 //---------------------------------------------------------------------------
 TS7Client::~TS7Client()
@@ -292,7 +292,7 @@ int TS7Client::ExecTime()
 {
     int Time;
     int Result = Cli_GetExecTime(Client, &Time);
-    if (Result==0)
+    if (Result == 0)
         return Time;
     else
         return Result;
@@ -301,17 +301,17 @@ int TS7Client::ExecTime()
 int TS7Client::LastError()
 {
     int LastError;
-    int Result =Cli_GetLastError(Client, &LastError);
-    if (Result==0)
-       return LastError;
+    int Result = Cli_GetLastError(Client, &LastError);
+    if (Result == 0)
+        return LastError;
     else
-       return Result;
+        return Result;
 }
 //---------------------------------------------------------------------------
 int TS7Client::PDULength()
 {
     int Requested, Negotiated;
-    if (Cli_GetPduLength(Client, &Requested, &Negotiated)==0)
+    if (Cli_GetPduLength(Client, &Requested, &Negotiated) == 0)
         return Negotiated;
     else
         return 0;
@@ -320,7 +320,7 @@ int TS7Client::PDULength()
 int TS7Client::PDURequested()
 {
     int Requested, Negotiated;
-    if (Cli_GetPduLength(Client, &Requested, &Negotiated)==0)
+    if (Cli_GetPduLength(Client, &Requested, &Negotiated) == 0)
         return Requested;
     else
         return 0;
@@ -330,7 +330,7 @@ int TS7Client::PlcStatus()
 {
     int Status;
     int Result = Cli_GetPlcStatus(Client, &Status);
-    if (Result==0)
+    if (Result == 0)
         return Status;
     else
         return Result;
@@ -338,11 +338,11 @@ int TS7Client::PlcStatus()
 //---------------------------------------------------------------------------
 bool TS7Client::Connected()
 {
-	int ClientStatus;
-	if (Cli_GetConnected(Client ,&ClientStatus)==0)
-		return ClientStatus!=0;
-	else
-		return false;
+    int ClientStatus;
+    if (Cli_GetConnected(Client, &ClientStatus) == 0)
+        return ClientStatus != 0;
+    else
+        return false;
 }
 //---------------------------------------------------------------------------
 int TS7Client::SetAsCallback(pfn_CliCompletion pCompletion, void *usrPtr)
@@ -352,7 +352,7 @@ int TS7Client::SetAsCallback(pfn_CliCompletion pCompletion, void *usrPtr)
 //---------------------------------------------------------------------------
 bool TS7Client::CheckAsCompletion(int *opResult)
 {
-	return Cli_CheckAsCompletion(Client ,opResult)==JobComplete;
+    return Cli_CheckAsCompletion(Client, opResult) == JobComplete;
 }
 //---------------------------------------------------------------------------
 int TS7Client::WaitAsCompletion(longword Timeout)
@@ -370,12 +370,12 @@ int TS7Client::AsWriteArea(int Area, int DBNumber, int Start, int Amount, int Wo
     return Cli_AsWriteArea(Client, Area, DBNumber, Start, Amount, WordLen, pUsrData);
 }
 //---------------------------------------------------------------------------
-int TS7Client::AsListBlocksOfType(int BlockType,  PS7BlocksOfType pUsrData, int *ItemsCount)
+int TS7Client::AsListBlocksOfType(int BlockType, PS7BlocksOfType pUsrData, int *ItemsCount)
 {
-    return Cli_AsListBlocksOfType(Client, BlockType,  pUsrData, ItemsCount);
+    return Cli_AsListBlocksOfType(Client, BlockType, pUsrData, ItemsCount);
 }
 //---------------------------------------------------------------------------
-int TS7Client::AsReadSZL(int ID, int Index,  PS7SZL pUsrData, int *Size)
+int TS7Client::AsReadSZL(int ID, int Index, PS7SZL pUsrData, int *Size)
 {
     return Cli_AsReadSZL(Client, ID, Index, pUsrData, Size);
 }
@@ -484,7 +484,7 @@ int TS7Client::AsDBFill(int DBNumber, int FillChar)
 //==============================================================================
 TS7Server::TS7Server()
 {
-    Server=Srv_Create();
+    Server = Srv_Create();
 }
 //---------------------------------------------------------------------------
 TS7Server::~TS7Server()
@@ -524,21 +524,21 @@ int TS7Server::SetEventsCallback(pfn_SrvCallBack PCallBack, void *UsrPtr)
 //---------------------------------------------------------------------------
 int TS7Server::SetReadEventsCallback(pfn_SrvCallBack PCallBack, void *UsrPtr)
 {
-	return Srv_SetReadEventsCallback(Server, PCallBack, UsrPtr);
+    return Srv_SetReadEventsCallback(Server, PCallBack, UsrPtr);
 }
 //---------------------------------------------------------------------------
 int TS7Server::SetRWAreaCallback(pfn_RWAreaCallBack PCallBack, void *UsrPtr)
 {
-	return Srv_SetRWAreaCallback(Server, PCallBack, UsrPtr);
+    return Srv_SetRWAreaCallback(Server, PCallBack, UsrPtr);
 }
 //---------------------------------------------------------------------------
 bool TS7Server::PickEvent(TSrvEvent *pEvent)
 {
     int EvtReady;
-    if (Srv_PickEvent(Server, pEvent, &EvtReady)==0)
-       return EvtReady!=0;
+    if (Srv_PickEvent(Server, pEvent, &EvtReady) == 0)
+        return EvtReady != 0;
     else
-       return false;
+        return false;
 }
 //---------------------------------------------------------------------------
 void TS7Server::ClearEvents()
@@ -550,7 +550,7 @@ longword TS7Server::GetEventsMask()
 {
     longword Mask;
     int Result = Srv_GetMask(Server, mkEvent, &Mask);
-    if (Result==0)
+    if (Result == 0)
         return Mask;
     else
         return 0;
@@ -560,7 +560,7 @@ longword TS7Server::GetLogMask()
 {
     longword Mask;
     int Result = Srv_GetMask(Server, mkLog, &Mask);
-    if (Result==0)
+    if (Result == 0)
         return Mask;
     else
         return 0;
@@ -599,8 +599,8 @@ int TS7Server::UnlockArea(int AreaCode, word Index)
 int TS7Server::ServerStatus()
 {
     int ServerStatus, CpuStatus, ClientsCount;
-    int Result =Srv_GetStatus(Server, &ServerStatus, &CpuStatus, &ClientsCount);
-    if (Result==0)
+    int Result = Srv_GetStatus(Server, &ServerStatus, &CpuStatus, &ClientsCount);
+    if (Result == 0)
         return ServerStatus;
     else
         return Result;
@@ -609,18 +609,18 @@ int TS7Server::ServerStatus()
 int TS7Server::GetCpuStatus()
 {
     int ServerStatus, CpuStatus, ClientsCount;
-    int Result =Srv_GetStatus(Server, &ServerStatus, &CpuStatus, &ClientsCount);
-    if (Result==0)
-            return CpuStatus;
+    int Result = Srv_GetStatus(Server, &ServerStatus, &CpuStatus, &ClientsCount);
+    if (Result == 0)
+        return CpuStatus;
     else
-            return Result;
+        return Result;
 }
 //---------------------------------------------------------------------------
 int TS7Server::ClientsCount()
 {
     int ServerStatus, CpuStatus, ClientsCount;
-    int Result =Srv_GetStatus(Server, &ServerStatus, &CpuStatus, &ClientsCount);
-    if (Result==0)
+    int Result = Srv_GetStatus(Server, &ServerStatus, &CpuStatus, &ClientsCount);
+    if (Result == 0)
         return ClientsCount;
     else
         return Result;
@@ -635,7 +635,7 @@ int TS7Server::SetCpuStatus(int Status)
 //==============================================================================
 TS7Partner::TS7Partner(bool Active)
 {
-    Partner=Par_Create(int(Active));
+    Partner = Par_Create(int(Active));
 }
 //---------------------------------------------------------------------------
 TS7Partner::~TS7Partner()
@@ -658,7 +658,10 @@ int TS7Partner::Start()
     return Par_Start(Partner);
 }
 //---------------------------------------------------------------------------
-int TS7Partner::StartTo(const char *LocalAddress, const char *RemoteAddress, int LocalTSAP, int RemoteTSAP)
+int TS7Partner::StartTo(const char *LocalAddress,
+                        const char *RemoteAddress,
+                        int LocalTSAP,
+                        int RemoteTSAP)
 {
     return Par_StartTo(Partner, LocalAddress, RemoteAddress, LocalTSAP, RemoteTSAP);
 }
@@ -680,7 +683,7 @@ int TS7Partner::AsBSend(longword R_ID, void *pUsrData, int Size)
 //---------------------------------------------------------------------------
 bool TS7Partner::CheckAsBSendCompletion(int *opResult)
 {
-    return Par_CheckAsBSendCompletion(Partner ,opResult)==JobComplete;
+    return Par_CheckAsBSendCompletion(Partner, opResult) == JobComplete;
 }
 //---------------------------------------------------------------------------
 int TS7Partner::WaitAsBSendCompletion(longword Timeout)
@@ -712,7 +715,7 @@ int TS7Partner::Status()
 {
     int ParStatus;
     int Result = Par_GetStatus(Partner, &ParStatus);
-    if (Result==0)
+    if (Result == 0)
         return ParStatus;
     else
         return Result;
@@ -722,7 +725,7 @@ int TS7Partner::LastError()
 {
     int Error;
     int Result = Par_GetLastError(Partner, &Error);
-    if (Result==0)
+    if (Result == 0)
         return Error;
     else
         return Result;
@@ -733,14 +736,17 @@ int TS7Partner::GetTimes(longword *SendTime, longword *RecvTime)
     return Par_GetTimes(Partner, SendTime, RecvTime);
 }
 //---------------------------------------------------------------------------
-int TS7Partner::GetStats(longword *BytesSent, longword *BytesRecv, longword *ErrSend, longword *ErrRecv)
+int TS7Partner::GetStats(longword *BytesSent,
+                         longword *BytesRecv,
+                         longword *ErrSend,
+                         longword *ErrRecv)
 {
     return Par_GetStats(Partner, BytesSent, BytesRecv, ErrSend, ErrRecv);
 }
 //---------------------------------------------------------------------------
 bool TS7Partner::Linked()
 {
-    return Status()==par_linked;
+    return Status() == par_linked;
 }
 //==============================================================================
 // Text routines
@@ -772,4 +778,3 @@ TextString SrvEventText(TSrvEvent *Event)
     Srv_EventText(Event, text, TextLen);
     return TextString(text);
 }
-

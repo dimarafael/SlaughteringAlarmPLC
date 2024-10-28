@@ -2,10 +2,10 @@
 #define ALARMLISTMODEL_H
 
 #include <QAbstractListModel>
-#include <QObject>
 #include <QList>
-#include "alarmsconfig.h"
+#include <QObject>
 #include "alarmactiveitem.h"
+#include "alarmsconfig.h"
 
 class AlarmListModel : public QAbstractListModel
 {
@@ -38,7 +38,7 @@ signals:
 
 private:
     AlarmsConfig *alarmsConfig;
-    QList<AlarmActiveItem*> m_alarmList;
+    QList<AlarmActiveItem *> m_alarmList;
     QVector<quint8> oldData;
     bool m_plcOnline;
 };

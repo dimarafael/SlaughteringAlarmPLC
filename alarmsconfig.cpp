@@ -3,7 +3,7 @@
 AlarmsConfig::AlarmsConfig(QObject *parent)
     : QObject{parent}
 {
-    QFile file (":/Alarms.csv");
+    QFile file(":/Alarms.csv");
 
     if (!file.open(QIODevice::ReadOnly)) {
         qDebug() << file.errorString();
@@ -20,21 +20,23 @@ AlarmsConfig::AlarmsConfig(QObject *parent)
             int addrBit;
             bool isTypeError;
 
-            if(lineSplitted.size() < 4){
+            if (lineSplitted.size() < 4) {
                 qDebug() << "Alarms.csv parse error : can not split string: " << line;
-            } else{
+            } else {
                 messageDE = QString::fromUtf8(lineSplitted[0]);
                 messageHU = QString::fromUtf8(lineSplitted[1]);
                 alarmType = QString::fromUtf8(lineSplitted[3]);
                 isTypeError = alarmType.startsWith("Err");
 
                 addressSplited = lineSplitted[2].split(' ');
-                if(addressSplited.size() < 4){
-                    qDebug() << "Alarms.csv parse error : can not split address: " << lineSplitted[2];
+                if (addressSplited.size() < 4) {
+                    qDebug() << "Alarms.csv parse error : can not split address: "
+                             << lineSplitted[2];
                 } else {
                     byteSplited = addressSplited[3].split('.');
-                    if(byteSplited.size() < 2){
-                        qDebug() << "Alarms.csv parse error : can not split byte: " << addressSplited[3];
+                    if (byteSplited.size() < 2) {
+                        qDebug() << "Alarms.csv parse error : can not split byte: "
+                                 << addressSplited[3];
                     } else {
                         addrByte = QString::fromUtf8(byteSplited[0]).toInt();
                         addrBit = QString::fromUtf8(byteSplited[1]).toInt();
@@ -54,7 +56,6 @@ AlarmsConfig::AlarmsConfig(QObject *parent)
             }
         }
     }
-
 }
 
 QList<AlarmConfigItem *> AlarmsConfig::getAlarmConfigList() const
@@ -64,16 +65,17 @@ QList<AlarmConfigItem *> AlarmsConfig::getAlarmConfigList() const
 
 AlarmConfigItem *AlarmsConfig::getAlarmConfigItem(int id)
 {
-    if (id >= 0 and id < alarmConfigList.size()){
+    if (id >= 0 and id < alarmConfigList.size()) {
         return alarmConfigList[id];
-    } else return nullptr;
+    } else
+        return nullptr;
 }
 
 int AlarmsConfig::findAlarmItemId(int byte, int bit)
 {
     int i = -1;
-    for(i = 0; i < alarmConfigList.size(); i++){
-        if (alarmConfigList[i]->getAddrByte() == byte and alarmConfigList[i]->getAddrBit() == bit){
+    for (i = 0; i < alarmConfigList.size(); i++) {
+        if (alarmConfigList[i]->getAddrByte() == byte and alarmConfigList[i]->getAddrBit() == bit) {
             break;
         }
     }
@@ -83,12 +85,11 @@ int AlarmsConfig::findAlarmItemId(int byte, int bit)
 AlarmConfigItem *AlarmsConfig::getAlarmConfigItem(int byte, int bit)
 {
     AlarmConfigItem *item = nullptr;
-    for(int i = 0; i < alarmConfigList.size(); i++){
-        if (alarmConfigList[i]->getAddrByte() == byte and alarmConfigList[i]->getAddrBit() == bit){
+    for (int i = 0; i < alarmConfigList.size(); i++) {
+        if (alarmConfigList[i]->getAddrByte() == byte and alarmConfigList[i]->getAddrBit() == bit) {
             item = alarmConfigList[i];
             break;
         }
     }
     return item;
 }
-
