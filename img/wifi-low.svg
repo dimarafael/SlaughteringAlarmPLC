@@ -8,7 +8,7 @@
    fill="none"
    version="1.1"
    id="svg4"
-   sodipodi:docname="wifi-low-svgrepo-com.svg"
+   sodipodi:docname="wifi-low.svg"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -27,8 +27,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="0.73008775"
-     inkscape:cx="378.7216"
-     inkscape:cy="404.74587"
+     inkscape:cx="215.04264"
+     inkscape:cy="406.11557"
      inkscape:window-width="1920"
      inkscape:window-height="1013"
      inkscape:window-x="-9"
@@ -44,6 +44,6 @@
        stroke-width="2"
        stroke-linecap="round"
        stroke-linejoin="round"
-       style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
+       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
   </g>
 </svg>
