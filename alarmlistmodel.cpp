@@ -50,8 +50,6 @@ void AlarmListModel::processAlarms(QVector<quint8> data)
         }
     }
 
-    // beginResetModel();
-
     for (int i = 0; i < data.size(); i++) {
         if (data[i] != oldData[i]) {
             for (int bitNumber = 0; bitNumber < 8; bitNumber++) {
@@ -94,7 +92,6 @@ void AlarmListModel::processAlarms(QVector<quint8> data)
     }
 
     oldData = data;
-    // endResetModel();
     // qDebug()<< "Size " << m_alarmList.size();
 }
 

@@ -148,9 +148,28 @@ Window {
                         required property string alarmMessageDE;
                         required property bool alarmTypeError;
                         required property date alarmTimestamp;
-                        font.pixelSize: window.height / 40
+
+                        width: itemActualAlarms.width - window.defMargin
+                        height: (itemActualAlarms.height - window.defMargin) / 12
+                        verticalAlignment: Text.AlignVCenter
+                        horizontalAlignment: Text.AlignLeft
+                        font.pixelSize: height *0.8
                         color: delegate.alarmTypeError? "darkred" : "darkblue"
                         text: delegate.alarmTimestamp.toLocaleString(Qt.locale("hu_HU"), Locale.ShortFormat) + " | " + delegate.alarmMessageHU + " | " + delegate.alarmMessageDE
+                    }
+
+                    add: Transition {
+                        NumberAnimation { property: "opacity"; from: 0; to: 1.0; duration: 400 }
+                        NumberAnimation { property: "scale"; from: 0; to: 1.0; duration: 400 }
+                    }
+
+                    displaced: Transition {
+                        NumberAnimation { properties: "x,y"; duration: 400; easing.type: Easing.OutQuad }
+                    }
+
+                    remove: Transition {
+                        NumberAnimation { property: "opacity"; from: 1.0; to: 0; duration: 400 }
+                        NumberAnimation { property: "scale"; from: 1.0; to: 0; duration: 400 }
                     }
                 }
             }
