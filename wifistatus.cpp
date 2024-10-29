@@ -5,7 +5,7 @@ WiFiStatus::WiFiStatus(QObject *parent)
 {
     timer = new QTimer(this);
     connect(timer, &QTimer::timeout, this, &WiFiStatus::readWiFiState);
-    timer->start(1000);
+    timer->start(5000);
 }
 
 int WiFiStatus::wifiState() const

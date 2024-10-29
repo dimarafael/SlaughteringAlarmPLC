@@ -99,6 +99,7 @@ Window {
                 anchors.right: itemClock.left
                 anchors.top: parent.top
                 anchors.bottom: parent.bottom
+                anchors.rightMargin: window.defMargin
                 sourceSize.height: height
                 fillMode: Image.PreserveAspectFit
                 source: {
