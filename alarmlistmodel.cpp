@@ -50,7 +50,7 @@ void AlarmListModel::processAlarms(QVector<quint8> data)
         }
     }
 
-    beginResetModel();
+    // beginResetModel();
 
     for (int i = 0; i < data.size(); i++) {
         if (data[i] != oldData[i]) {
@@ -69,7 +69,10 @@ void AlarmListModel::processAlarms(QVector<quint8> data)
                         activeItem->setAddrBit(item->getAddrBit());
                         activeItem->setIsTypeError(item->getIsTypeError());
                         activeItem->setTimeStamp(QDateTime::currentDateTime());
+
+                        beginInsertRows(QModelIndex(), m_alarmList.size(), m_alarmList.size());
                         m_alarmList.append(activeItem);
+                        endInsertRows();
                     }
                 }
 
@@ -78,8 +81,11 @@ void AlarmListModel::processAlarms(QVector<quint8> data)
                     for (int j = 0; j < m_alarmList.size(); j++) {
                         if (m_alarmList[j]->getAddrByte() == i
                             and m_alarmList[j]->getAddrBit() == bitNumber) {
+
+                            beginRemoveRows(QModelIndex(), j, j);
                             m_alarmList.remove(j, 1);
                             m_alarmList.squeeze();
+                            endRemoveRows();
                         }
                     }
                 }
@@ -88,7 +94,7 @@ void AlarmListModel::processAlarms(QVector<quint8> data)
     }
 
     oldData = data;
-    endResetModel();
+    // endResetModel();
     // qDebug()<< "Size " << m_alarmList.size();
 }
 
