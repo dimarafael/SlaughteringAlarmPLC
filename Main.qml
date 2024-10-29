@@ -106,7 +106,7 @@ Window {
                 verticalAlignment: Text.AlignVCenter
                 horizontalAlignment: Text.AlignHCenter
                 color: "white"
-                text: "Vágóhíd hibák"
+                text: "Vágóhíd PLC hibák"
             }
         }
         DropShadow {
