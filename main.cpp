@@ -5,6 +5,7 @@
 #include "alarmlistmodel.h"
 #include "alarmsconfig.h"
 #include "plc_siemens.h"
+#include "wifistatus.h"
 
 int main(int argc, char *argv[])
 {
@@ -36,6 +37,8 @@ int main(int argc, char *argv[])
                      &PLC_Siemens::dataReady,
                      alarmHistoryListModel,
                      &AlarmHistoryListModel::processAlarms);
+
+    WiFiStatus *wifiStatus = new WiFiStatus(&app);
 
     QObject::connect(
         &engine,
