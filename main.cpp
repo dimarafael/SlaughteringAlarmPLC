@@ -6,6 +6,7 @@
 #include "alarmsconfig.h"
 #include "plc_siemens.h"
 #include "wifistatus.h"
+#include <QQmlContext>
 
 int main(int argc, char *argv[])
 {
@@ -39,6 +40,7 @@ int main(int argc, char *argv[])
                      &AlarmHistoryListModel::processAlarms);
 
     WiFiStatus *wifiStatus = new WiFiStatus(&app);
+    engine.rootContext()->setContextProperty("wifistatus", wifiStatus);
 
     QObject::connect(
         &engine,

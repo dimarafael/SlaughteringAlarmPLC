@@ -23,6 +23,11 @@ qt_add_qml_module(appSlaughteringAlarmPLC
     VERSION 1.0
     RESOURCES
         img/logo.png
+        img/wifi-high.svg
+        img/wifi-medium.svg
+        img/wifi-low.svg
+        img/wifi-none.svg
+        img/wifi-problem.svg
     QML_FILES
         Main.qml
         SOURCES alarmlistmodel.h alarmlistmodel.cpp

@@ -20,7 +20,7 @@ public:
 signals:
     void wifiStateChanged();
 private:
-    int m_wifiState;
+    int m_wifiState = 0;
     QTimer *timer;
 
 private slots:

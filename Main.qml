@@ -95,6 +95,24 @@ Window {
 
             }
 
+            Image{
+                anchors.right: itemClock.left
+                anchors.top: parent.top
+                anchors.bottom: parent.bottom
+                sourceSize.height: height
+                fillMode: Image.PreserveAspectFit
+                source: {
+                    switch(wifistatus.wifiState){
+                        case 0: return "img/wifi-problem.svg";
+                        case 1: return "img/wifi-none.svg";
+                        case 2: return "img/wifi-low.svg";
+                        case 3: return "img/wifi-medium.svg";
+                        case 4: return "img/wifi-high.svg";
+                        default: return "img/wifi-problem.svg";
+                    }
+                }
+            }
+
             Text{
                 id: textTitle
                 anchors.top: parent.top

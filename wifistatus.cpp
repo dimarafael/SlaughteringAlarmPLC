@@ -38,7 +38,7 @@ void WiFiStatus::readWiFiState()
                 connected = true;
                 QStringList fields = line.split(QRegularExpression("\\s+"), Qt::SkipEmptyParts);
                 if (fields.size() > 3) {
-                    signalLevel = fields[3].toFloat();
+                    signalLevel = 2 * (fields[3].toFloat() + 100);
                     // int signalPercent = 2 * (signalLevel + 100);
                      // setText(QString("Signal Strength: %1%\nStatus: Connected").arg(signalPercent));
                 }
@@ -47,10 +47,19 @@ void WiFiStatus::readWiFiState()
         }
 
         if (!connected) {
-            // setText("Status: Not Connected");
-            qDebug()<< "WiFi disconnected";
+            setWifiState(0);
+            // qDebug()<< "WiFi disconnected";
         } else{
-            qDebug() << "WiFi : " << signalLevel << "db |" << (2 * (signalLevel + 100)) << "%";
+            if (signalLevel < 25){
+                setWifiState(1);
+            } else if(signalLevel  < 50){
+                setWifiState(2);
+            } else if(signalLevel < 75){
+                setWifiState(3);
+            } else {
+                setWifiState(4);
+            };
+            // qDebug() << "WiFi : " << signalLevel << "db |" << (2 * (signalLevel + 100)) << "%";
         }
     }
 }
