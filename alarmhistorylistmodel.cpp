@@ -74,7 +74,7 @@ void AlarmHistoryListModel::processAlarms(QVector<quint8> data)
                     }
                 }
                 // delete old records
-                while (m_alarmList.size() > 5) {
+                while (m_alarmList.size() > 100) {
                     beginRemoveRows(QModelIndex(), m_alarmList.count() -1, m_alarmList.count() -1);
                     m_alarmList.removeLast();
                     m_alarmList.squeeze();

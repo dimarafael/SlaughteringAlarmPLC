@@ -74,11 +74,11 @@ Window {
                 anchors.right: parent.right
                 anchors.top: parent.top
                 anchors.bottom: parent.bottom
-                width: logo.width
+                width: height * 2.8
                 Text{
                     id: clockText
                     anchors.fill: parent
-                    font.pixelSize: height / 2
+                    font.pixelSize: height * 0.8
                     font.bold: true
                     verticalAlignment: Text.AlignVCenter
                     horizontalAlignment: Text.AlignLeft
@@ -213,9 +213,23 @@ Window {
                         required property string alarmMessageDE;
                         required property bool alarmTypeError;
                         required property date alarmTimestamp;
-                        font.pixelSize: window.height / 40
+
+                        width: itemHistoryAlarms.width - window.defMargin
+                        height: (itemHistoryAlarms.height - window.defMargin) / 12
+                        verticalAlignment: Text.AlignVCenter
+                        horizontalAlignment: Text.AlignLeft
+                        font.pixelSize: height *0.8
                         color: delegate2.alarmTypeError? "darkred" : "darkblue"
                         text: delegate2.alarmTimestamp.toLocaleString(Qt.locale("hu_HU"), Locale.ShortFormat) + " | " + delegate2.alarmMessageHU + " | " + delegate2.alarmMessageDE
+                    }
+
+                    add: Transition {
+                        NumberAnimation { property: "opacity"; from: 0; to: 1.0; duration: 400 }
+                        NumberAnimation { property: "scale"; from: 0; to: 1.0; duration: 400 }
+                    }
+
+                    displaced: Transition {
+                        NumberAnimation { properties: "x,y"; duration: 400; easing.type: Easing.OutQuad }
                     }
                 }
             }
