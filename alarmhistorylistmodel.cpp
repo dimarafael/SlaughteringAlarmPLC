@@ -52,7 +52,6 @@ void AlarmHistoryListModel::processAlarms(QVector<quint8> data)
 
     for (int i = 0; i < data.size(); i++) {
         if (data[i] != oldData[i]) {
-            beginResetModel();
             for (int bitNumber = 0; bitNumber < 8; bitNumber++) {
                 bool alarmBit = (data[i] >> bitNumber) & 1;
                 bool oldAlarmBit = (oldData[i] >> bitNumber) & 1;
@@ -68,16 +67,20 @@ void AlarmHistoryListModel::processAlarms(QVector<quint8> data)
                         historyItem->setAddrBit(item->getAddrBit());
                         historyItem->setIsTypeError(item->getIsTypeError());
                         historyItem->setTimeStamp(QDateTime::currentDateTime());
+
+                        beginInsertRows(QModelIndex(), 0 ,0);
                         m_alarmList.prepend(historyItem); // add at first position
+                        endInsertRows();
                     }
                 }
                 // delete old records
-                while (m_alarmList.size() > 100) {
+                while (m_alarmList.size() > 5) {
+                    beginRemoveRows(QModelIndex(), m_alarmList.count() -1, m_alarmList.count() -1);
                     m_alarmList.removeLast();
                     m_alarmList.squeeze();
+                    endRemoveRows();
                 }
             }
-            endResetModel();
         }
     }
 

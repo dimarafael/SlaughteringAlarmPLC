@@ -31,11 +31,7 @@ int main(int argc, char *argv[])
                      &AlarmListModel::setOnlineStatus);
 
     AlarmHistoryListModel *alarmHistoryListModel = new AlarmHistoryListModel(&app, alarmsConfig);
-    qmlRegisterSingletonInstance("com.kometa.AlarmHistoryListModel",
-                                 1,
-                                 0,
-                                 "AlarmHistoryListModel",
-                                 alarmHistoryListModel);
+    qmlRegisterSingletonInstance("com.kometa.AlarmHistoryListModel",1,0,"AlarmHistoryListModel",alarmHistoryListModel);
     QObject::connect(plcSiemens,
                      &PLC_Siemens::dataReady,
                      alarmHistoryListModel,
