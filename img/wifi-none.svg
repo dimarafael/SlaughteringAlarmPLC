@@ -37,19 +37,12 @@
      inkscape:current-layer="System / Wifi_High" />
   <g
      id="System / Wifi_High">
-    <rect
-       style="fill:#006300;stroke:#000000;stroke-width:2.1;stroke-linecap:round;fill-opacity:1"
-       id="rect949"
-       width="47.883774"
-       height="35.564163"
-       x="-11.738499"
-       y="-5.7530265" />
     <path
        style="stroke:#ffffff;stroke-opacity:1;stroke-width:2.01;stroke-dasharray:none;stroke-linecap:round"
        d="m 12,19.0001 c -0.5523,0 -1,-0.4477 -1,-1 0,-0.5523 0.4477,-1 1,-1 0.5523,0 1,0.4477 1,1 0,0.5523 -0.4477,1 -1,1 z"
        id="path895" />
     <path
-       style="stroke:#ffffff;stroke-opacity:0.29584351;stroke-width:2.01;stroke-dasharray:none;stroke-linecap:round"
+       style="stroke:#ffffff;stroke-opacity:0.30000001;stroke-width:2.01;stroke-dasharray:none;stroke-linecap:round"
        d="M 3.22363,8.81635 C 4.34165,7.61742 5.69347,6.66028 7.19569,6.00398 8.69791,5.34768 10.3179,5.0058 11.9572,5.00007 c 1.6394,-0.00572 3.2636,0.32465 4.7704,0.97045 1.5068,0.6458 2.8655,1.59406 3.9919,2.78516"
        id="path893" />
     <path
